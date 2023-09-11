@@ -1,0 +1,52 @@
+Rezervační smluvní podmínky
+
+Tyto podmínky se vztahují na každého hosta, který si pomocí našeho webu rezervuje pobyt. Registrovaní uživatelé s tímto dokumentem musí souhlasit při vytváření svého účtu a provozovatel má povinnost je, pomocí emailové adresy, kterou si tito uživatelé zvolili jako kontaktní, informovat o všech změnách a úpravách. Neregistrovaní hosté musí s tímto dokumentem souhlasit při vytváření rezervace. Pokud host nesouhlasí s něčím, co je v dokumentu napsané, nebo to nehodlá respektovat, může se obrátit na provozovatele stránky a zároveň nesmí vytvářet nové rezervace.
+
+
+Informace požadované v rezervaci:
+
+Jméno:
+Jméno hosta slouží jako jeden ze základních identifikačních znaků. Hostiteli slouží k rozpoznání a oslovení hostů při správě rezervace a komunikaci s hostem.
+
+Email:
+Pomocí emailové adresy uvedené ve formuláři budou moct hostitelé se svými hosty komunikovat. Zároveň jsou na tento email odesílané všechna důležitá sdělení a upozornění odeslaná poskytovatelem stránky. Tento údaj také slouží k případné identifikaci již registrovaného účtu, kdy pokud se zadaná emailová adresa shoduje s emailem některého z existujících profilů, stránka si vyžádá heslo tohoto účtu a po správném vyplnění přiřadí nově vytvořenou rezervaci k tomuto uživateli. Pokud ale účet se shodným emailem nalezen nebyl a profil s tímto údajem bude vytvořený v budoucnosti, systém naopak přiřadí všechny staré rezervace, kde se email nachází k nově vytvořenému účtu.
+
+Telefonní číslo:
+Telefonní číslo slouží jako kontaktní údaj na osobu hosta pro hostitele.
+
+Počet hostů:
+Počet hostů je jedním ze základních parametrů každé rezervace. Slouží k informování hostitele o počtu návštěvníků a v případě některých chat se jedná i o údaj určující cenu pobytu. Do počtu hostů se nezapočítávají pouze kojenci do věku 2 let.
+
+Od/Do:
+Tato informace určí, od kdy do kdy potrvá pobyt, který si host hodlá rezervovat. Díky tomuto údaji je pak vypočítána i celková cena rezervace.
+
+Počet hostů a termín rezervace jsou s hostitelem, kterému chata patří, sdíleny hned po vytvoření rezervace. Zbylé údaje budou tomuto hostiteli dostupné, až pobyt potvrdí. Po té, co je rezervace potvrzena, až do doby jejího proběhnutí či zrušení má host i hostitel přístup ke všem údajům a mohou je dle svého uvážení měnit a upravovat. Systém stránky pak automaticky informuje, pokud k nějaké změně dojde, druhou stranu. Po proběhnutí rezervace jsou úpravy umožněny už pouze hostitelovi.
+
+
+Evidence údajů:
+
+Všechny údaje uvedené v rezervaci jsou uloženy v naší databázi, kde se nacházejí až do doby, než dojde ke zrušení dané rezervace, k čemuž může dojít buď tak, že jí zruší host nebo hostitel, nebo systém sám při některém z automatických procesů. Výjimkou jsou pouze informace o pobytech, které se hostitel pokusil odstranit nebo změnit po proběhnutí daného pobytu. V takovém případě jsou data pro veřejnost odstraněny nebo upraveny, ale zůstávají nezměněny v našem archivu.
+
+
+Žádost o rezervaci:
+
+Po vyplnění a odeslání rezervace je tato rezervace nejdříve nabídnuta hostitelům, kteří ji podle svých možností mohou přijmout, nebo odmítnout. Teprve po přijetí pobytu je rezervace plně platná a pro obě strany závazná.
+
+
+Zamítnutí a zrušení pobytů:
+
+Hostitel má právo zamítnout všechny žádosti o rezervace, které mu jsou nabídnuty. Pokud na nabídku nebude reagovat, bude zamítnuta automaticky 12 hodin před termínem začátku daného pobytu.
+
+Poplatek za zrušení rezervace si hostitel může ponechat, nebo jej může po hostech požadovat, pokud bude rezervace zrušená méně než 2 týdny před termínem začátku pobytu. Pokud je doba delší, nebo rezervaci zruší hostitel osobně, má host nárok na vrácení všech doposud uhrazených peněz.
+
+
+Automatické zrušení rezervace po neuhrazení zálohy:
+
+Host má po přijetí rezervace hostitelem 48 hodin na to, aby uhradil alespoň požadovanou zálohu, případně celou sumu za svůj pobyt. Pokud tak neučiní, bude tato rezervace automaticky zrušena.
+
+Toto se netýká pobytů vytvořených méně než 48 hodin před začátkem samotného pobytu.
+
+
+Záloha:
+
+Aby mohla být po hostech požadována záloha, musí být celková cena rezervace vyšší nebo rovna 50 euro. Pokud této hranice nedosáhne, je požadována rovnou celá suma.

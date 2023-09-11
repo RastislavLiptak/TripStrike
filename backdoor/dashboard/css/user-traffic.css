@@ -1,0 +1,46 @@
+#dashboard-block-user-traffic {
+  grid-column: 1 / 11;
+  grid-row: 1 / 3;
+}
+
+@media only screen and (max-width: 1350px) {
+  #dashboard-block-user-traffic {
+    grid-column: 1 / 14;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #dashboard-block-user-traffic {
+    grid-column: 1 / 21;
+    grid-row: 2 / 4;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #dashboard-block-user-traffic {
+    grid-column: 1 / 7;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #dashboard-block-user-traffic {
+    grid-column: 1 / 11;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  #dashboard-block-user-traffic {
+    grid-row: 3 / 5;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #dashboard-block-user-traffic {
+    grid-row: 4 / 6;
+  }
+}
+
+#bar-chart-wrp-d-user-traffic-chart {
+  margin: 0px 15px;
+  margin-bottom: 20px;
+}

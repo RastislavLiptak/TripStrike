@@ -1,0 +1,244 @@
+#modal-cover-plc-tool-equipment-blck {
+  padding: 36px 13px 20px 26px;
+}
+
+@media only screen and (max-width: 560px) {
+  #modal-cover-plc-tool-equipment-blck {
+    padding: 36px 11px 20px 22px;
+  }
+}
+
+.plc-tool-modal-btn-footer {
+  margin-top: 20px;
+}
+
+#plc-tool-equipment-submit-btn {
+  margin: 0px auto;
+}
+
+#plc-tool-equipment-wrp {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 300px;
+  padding-right: 13px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 560px) {
+  #plc-tool-equipment-wrp {
+    padding-right: 11px;
+  }
+}
+
+@media only screen and (max-height: 452px) {
+  #plc-tool-equipment-wrp {
+    height: calc(100vh - 152px);
+  }
+}
+
+#plc-tool-equipment-list {
+  display: grid;
+  height: fit-content;
+  grid-gap: 4px 7px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 560px) {
+  #plc-tool-equipment-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
+}
+
+.plc-tool-equipment-btn, .plc-tool-equipment-add {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  align-items: center;
+  padding: 4px 11px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.plc-tool-equipment-btn {
+  cursor: pointer;
+}
+
+.plc-tool-equipment-btn:hover {
+  background-color: #333;
+}
+
+.plc-tool-equipment-img {
+  display: table;
+  height: 25px;
+  width: 25px;
+}
+
+#plc-tool-equipment-img-add {
+  cursor: pointer;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../uni/icons/add6.svg");
+  background-size: 70%;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.plc-tool-equipment-txt-wrp {
+  padding: 10px 13px 10px 12px;
+}
+
+.plc-tool-equipment-txt {
+  font-size: 13.5px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0.5px;
+  width: 140px;
+  overflow-wrap: break-word;
+}
+
+#plc-tool-equipment-inpt {
+  display: table;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  letter-spacing: 0.5px;
+  width: calc((140px + 18px + 2 * 10px) - 13px);
+  padding: 0px;
+  padding: 10px 13px 10px 12px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 305px) {
+  .plc-tool-equipment-txt {
+    width: calc(100vw - 165px);
+  }
+
+  #plc-tool-equipment-inpt {
+    width: calc(((100vw - 165px) + 18px + 2 * 10px) - 13px);
+  }
+}
+
+#plc-tool-equipment-inpt::-webkit-input-placeholder {
+  color: #757575;
+}
+
+#plc-tool-equipment-inpt:-ms-input-placeholder {
+  color: #757575;
+}
+
+#plc-tool-equipment-inpt::placeholder {
+  color: #757575;
+}
+
+#plc-tool-equipment-add-btn {
+  display: table;
+  height: 25px;
+  width: 13px;
+  cursor: text;
+  opacity: 0;
+  padding: 0px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../uni/icons/add5.svg");
+  background-size: auto 60%;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.plc-tool-equipment-check-wrp, #plc-tool-equipment-add-btn-wrp {
+  display: table;
+}
+
+.plc-tool-equipment-label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  opacity: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.plc-tool-equipment-btn-check .plc-tool-equipment-label {
+  opacity: 1 !important;
+}
+
+.plc-tool-equipment-btn:hover .plc-tool-equipment-label {
+  opacity: 1;
+}
+
+.plc-tool-equipment-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.plc-tool-equipment-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+
+.plc-tool-equipment-label input:checked ~ .plc-tool-equipment-checkmark {
+  background-color: #2196F3;
+  border: none;
+}
+
+.plc-tool-equipment-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.plc-tool-equipment-label input:checked ~ .plc-tool-equipment-checkmark:after {
+  display: block;
+}
+
+.plc-tool-equipment-label .plc-tool-equipment-checkmark:after {
+  left: 35%;
+  top: 20%;
+  width: 3px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

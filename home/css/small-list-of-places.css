@@ -1,0 +1,130 @@
+.h-sml-list-wrp {
+  display: table;
+  width: 100%;
+  margin-bottom: 65px;
+}
+
+.h-sml-grid {
+  display: grid;
+  width: 100%;
+  grid-gap: 2.4vw 2.3vw;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (min-width: 1522px) {
+  .h-sml-grid {
+    grid-gap: calc(2.4 * 1522px / 100) calc(2.3 * 1522px / 100);
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .h-sml-grid {
+    grid-gap: 2.9vw 2.7vw;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .h-sml-grid {
+    grid-gap: 4.3vw 4vw;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .h-sml-grid {
+    grid-gap: 32px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.h-link-blck {
+  display: table;
+  width: 100%;
+}
+
+.h-link-a {
+  display: table;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.h-link-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.h-link-img-wrp {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 63%;
+  border-radius: 7px;
+}
+
+.h-link-img {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2e3235;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 110%;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.h-link-blck:hover .h-link-img {
+  background-size: auto 100%;
+}
+
+.h-link-details {
+  display: flex;
+  flex: 1;
+  margin-top: 7px;
+  min-height: calc(23px * 2 + 5px + 18px);
+  flex-direction: column;
+}
+
+.h-link-title-wrp {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.h-link-title {
+  width: 100%;
+  font-size: 16.3px;
+  line-height: 23px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  max-height: calc(23px * 2);
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+.h-link-price-wrp {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 3px;
+  opacity: 0.8;
+}
+
+.h-link-details-txt {
+  font-size: 13.5px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+}

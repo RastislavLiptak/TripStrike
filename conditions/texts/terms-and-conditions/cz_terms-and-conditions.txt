@@ -1,0 +1,52 @@
+Smluvní podmínky
+
+Tyto smluvní podmínky se vztahují na všechny registrované uživatele využívající naše služby. Všechny aktivní účty mají zároveň plné právo být obeznámeny o úpravách v tomto dokumentu a poskytovatel služby má povinnost informovat o všech změnách každého z uživatelů pomocí emailové adresy, kterou si tento uživatel zvolil jako kontaktní. Souhlas s těmito podmínkami pak uživatelé vyjádří při vytváření svého profilu a následně i využíváním našich služeb. Pokud ale majitel profilu s něčím nesouhlasí, nebo to nehodlá respektovat, může se obrátit na provozovatele a zároveň musí ukončit provozování všech aktivit na našich stránkách.
+
+
+Využití požadovaných údajů:
+
+Křestní jméno a příjmení:
+Křestní jméno a příjmení slouží, jako uživatelské jméno pro snadnou identifikaci uživatele. Tento údaj je veřejně dostupný a může se nacházet i v mailech týkajících se daného profilu, kterému údaj náleží, v podobě jmenování hosta, či hostitele.
+
+Email a telefonní číslo:
+Tyto údaje jsou primárně určeny pro ztotožnění uživatele. Jejich postavení je unikátní a to znamená, že není možné, aby byly užity stejné údaje 2x u jiných profilů. Jsou využívány jako přihlašovací údaje a proto nejsou veřejně dostupné.
+
+Kontaktní email a kontaktní telefonní číslo:
+Kontaktní údaje jsou určeny pro kontaktování uživatelů. Jsou poskytnuty veřejně k dispozici a zároveň se nacházejí i v emailových zprávách týkajících se profilu, ke kterému jsou údaje přiřazeny, ať z pohledu hostitele, nebo hosta. Zároveň jsou na tyto údaje stránkou posílány všechny zprávy odeslané systémem. Přestože se tyto data mohou shodovat s přihlašovacími údaji, nejsou určeny pro přihlašování, ale mohou hrát roli při ztotožňování.
+
+Datum narození:
+Využívání služeb této stránky je omezeno na osoby starší osmnácti let a pro ověření potřebujeme údaj o datumu narození. Zároveň je tento údaj využitý pro analýzu věkových skupin a využití stránky. Tento údaj je soukromý a není jakýmkoliv způsobem sdílený s veřejností
+
+IBAN, Číslo bankovního účtu a BIC/SWIFT:
+Informace o bankovním kontě je povinné vyplnit jen pro profily, které poskytují, nebo se chystají poskytovat na naší stránce chaty k pronájmu. Stačí ale, aby byl vyplněný pouze údaj IBAN. Tyto údaje jsou pak dostupné všem hostům, kterým hostitel, jemuž dané údaje patří, potvrdil pobyt, nebo kterým tento hostitel pobyt pomocí našeho systému vytvořil.
+
+Ke všem výše uvedeným údajům má uživatel kdykoliv přístup a může si je dle své libosti spravovat.
+
+
+Přidávání obsahu:
+
+Stránka nenese odpovědnost za všechen obsah, který je na ní přidaný kterýmkoliv z uživatelů. Tato zodpovědnost spadá na profily, ke kterým daný obsah patří. Má ale právo tento obsah cenzurovat, nebo mazat, pokud porušuje některý z níže uvedených bodů:
+
+1) Obsah nesmí urážet, být vulgární, diskriminovat, nebo jevit známky rasismu či jiného potlačování dalších lidí
+2) Přidaný obsah nesmí obsahovat lživé, či falešné informace
+3) Uživatelé nesmí přidávat obsah, kterého nejsou vlastníky, nebo nemají od majitele daného obsahu povolení jej na této stránce použít
+4) Obsah nesouvisející se zaměřením stránky není povoleno přidávat žádnému z uživatelů
+5) Obsah nesmí být využíván k výzvám, plánování nebo páchání násilí jak už psychické, tak fyzické formy
+
+Dále stránka nezodpovídá za všechny poplatky a daně vztahující se na hostitele, kteří svými aktivitami, za pomoci našich služeb, generují profit.
+
+
+Poplatky za využívání služeb stránky:
+
+Poplatky za rezervace jsou účtovány hostitelům pouze u rezervací, které potvrdí. To znamená, že se nevztahují na nepotvrzené pobyty, nebo pobyty vytvořené samotným hostitelem. Dále nejsou poplatky požadovány u rezervací, které byly zrušeny dříve, než v den začátku pobytu. 
+
+Výzvy k úhradě jsou odesílány automaticky každý měsíc a obsahují seznam všech pobytů, které doposud nebyly uhrazeny a končily nejpozději předcházející měsíc. Tyto výzvy obsahují všechny potřebné informace k zaplacení, jakožto i vypsaný seznam všech rezervací, za které je požadovaný poplatek. 
+
+Potvrzení o přijetí platby je hostitelům odeslané hned, jakmile je do systému zanesen údaj o uhrazení.
+
+Výše poplatků se může v průběhu času měnit. Nemůže ale dojít ke změně výše poplatku u již existující rezervace.
+
+
+Evidence údajů:
+
+Všechen obsah přidaný na stránku uživateli se ukládá do naší databáze a na náš server. Zde jsou tato data uložená do doby, než je sám uživatel, nebo provozovatel stránky odstraní. Data mohou být smazána i vlivem některého z automatických procesů, jako je například automatické zrušení rezervace s nezaplacenou zálohou. Výjimkou jsou pouze informace o pobytech, které se uživatel pokusil odstranit nebo změnit po proběhnutí daného pobytu. V takovém případě jsou data pro veřejnost odstraněny nebo upraveny, ale zůstávají nezměněny v našem archivu.

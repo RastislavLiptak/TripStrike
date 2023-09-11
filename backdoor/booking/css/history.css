@@ -1,0 +1,31 @@
+#b-d-booking-history-table th {
+  white-space: nowrap;
+}
+
+#b-d-booking-history-table td:nth-child(3) {
+  max-width: 225px;
+}
+
+#b-d-booking-history-table td:nth-child(4) {
+  max-width: 225px;
+}
+
+#b-d-booking-history-table td:nth-child(5) {
+  max-width: 235px;
+}
+
+#b-d-booking-history-table td:nth-child(6) {
+  max-width: 200px;
+}
+
+#b-d-booking-history-table td:nth-child(9) {
+  max-width: 200px;
+}
+
+#b-d-booking-history-table td:nth-child(10) {
+  max-width: 150px;
+}
+
+#b-d-booking-history-table td:nth-child(16) {
+  min-width: 200px;
+}

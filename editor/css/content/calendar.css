@@ -1,0 +1,346 @@
+#editor-content-calendar-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#editor-content-calendar-size {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#editor-content-calendar-blck {
+  display: block;
+  width: 100%;
+}
+
+/* main calendar */
+#cal-content-wrp-editor-content-calendar-blck {
+  background-color: #1b1b1b;
+  border-radius: 10px;
+}
+
+.cal-error-txt-editor-content-calendar-blck {
+  color: #808080;
+}
+
+.cal-slider-arrow-btn-site-wrp-editor-content-calendar-blck {
+  background-image: linear-gradient(270deg, rgba(28,28,28,0) 0%, rgba(28,28,28,1) 50%);
+}
+
+.cal-slider-arrow-btn {
+  background-position: left 5px center;
+  background-image: url(../../../uni/icons/arrow-left.svg);
+  background-size: auto 35%;
+}
+
+.cal-o-m-days-name-editor-content-calendar-blck {
+  color: #818386;
+}
+
+.cal-o-d-btn-limited-firsthalf-editor-content-calendar-blck .cal-o-d-num {
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.1) 50%, rgba(255,255,255,1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cal-o-d-btn-limited-secondhalf-editor-content-calendar-blck .cal-o-d-num {
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0.1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cal-o-d-track-part-editor-content-calendar-blck {
+  background-color: #3a3a3a;
+}
+
+.cal-o-d-track-part-deposit-editor-content-calendar-blck, .cal-o-d-track-part-fullAmount-editor-content-calendar-blck {
+  background-color: #454d59;
+}
+
+.cal-o-d-btn-hover .cal-o-d-circle-editor-content-calendar-blck-available,
+.cal-o-d-btn-hover .cal-o-d-circle-editor-content-calendar-blck-limited-firsthalf,
+.cal-o-d-btn-hover .cal-o-d-circle-editor-content-calendar-blck-limited-secondhalf,
+.cal-o-d-btn-hover .cal-o-d-circle-editor-content-calendar-blck-not-reserved {
+  background-color: #363535;
+}
+
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-available,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-limited-firsthalf,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-limited-secondhalf,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-not-reserved,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-reserved,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-reserved-lastday,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-reserved-firstday,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-reserved-firsthalf-only,
+.cal-o-d-btn-from .cal-o-d-circle-editor-content-calendar-blck-reserved-secondhalf-only {
+  background-color: #191919;
+}
+
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-available,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-limited-firsthalf,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-limited-secondhalf,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-not-reserved,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-reserved,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-reserved-lastday,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-reserved-firstday,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-reserved-firsthalf-only,
+.cal-o-d-btn-to .cal-o-d-circle-editor-content-calendar-blck-reserved-secondhalf-only {
+  background-color: #898989;
+}
+
+.cal-o-d-btn-day-between .cal-o-d-track-parts-one,
+.cal-o-d-btn-day-between .cal-o-d-track-parts-two-first,
+.cal-o-d-btn-day-between .cal-o-d-track-parts-two-second,
+.cal-o-d-btn-day-between .cal-o-d-circle-editor-content-calendar-blck-available,
+.cal-o-d-btn-day-between .cal-o-d-circle-editor-content-calendar-blck-limited-firsthalf,
+.cal-o-d-btn-day-between .cal-o-d-circle-editor-content-calendar-blck-limited-secondhalf,
+.cal-o-d-btn-day-between .cal-o-d-circle-editor-content-calendar-blck-not-reserved,
+.cal-o-d-btn-day-between-from .cal-o-d-track-parts-two-second,
+.cal-o-d-btn-day-between-to .cal-o-d-track-parts-two-first {
+  background-color: #565555;
+}
+
+#editor-content-calendar-btns-wrp {
+  display: flex;
+  width: calc(100% - 2 * 20px);
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 11px;
+}
+
+.editor-content-calendar-btn {
+  margin: 3px;
+  opacity: 1;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.editor-content-calendar-btn:disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+#editor-calendar-day-details-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#editor-calendar-day-details-loader-wrp, #editor-calendar-empty-date-wrp {
+  display: flex;
+  width: 100%;
+  height: 470px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-height: 617px) {
+  #editor-calendar-day-details-loader-wrp {
+    max-height: calc(100vh - 2 * 25px - 20px - 11px - 25px - 23px)
+  }
+}
+
+#editor-calendar-day-details-loader-img {
+  display: table;
+  height: 45px;
+  width: 45px;
+}
+
+#editor-calendar-empty-date-txt-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#editor-calendar-empty-date-txt {
+  width: 100%;
+  color: #949494;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.35;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  overflow-wrap: break-word;
+}
+
+.editor-calendar-booking-change-modal {
+  padding-right: calc(45px / 2) !important;
+}
+
+@media only screen and (max-width: 325px) {
+  .editor-calendar-booking-change-modal {
+    padding-left: 15px !important;
+    padding-right: calc(15px / 2) !important;
+  }
+}
+
+#modal-cover-editor-calendar-add-new-date-blck {
+  width: 315px;
+  max-width: calc(100vw - 2 * 17px);
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 10px !important;
+}
+
+.editor-calendar-booking-change-modal-scroll-wrp {
+  display: block;
+  max-height: 75vh;
+  overflow: auto;
+  padding-right: calc(45px / 2) !important;
+}
+
+@media only screen and (max-width: 325px) {
+  .editor-calendar-booking-change-modal-scroll-wrp {
+    padding-right: calc(15px / 2) !important;
+  }
+}
+
+#editor-calendar-booking-add-new-modal-scroll-wrp {
+  max-height: 475px;
+  padding-right: 10px !important;
+}
+
+#editor-calendar-booking-technical-shutdown-modal-scroll-wrp {
+  padding-right: 0px !important;
+}
+
+@media only screen and (max-height: calc(100 * 475px / 65)) {
+  #editor-calendar-booking-add-new-modal-scroll-wrp {
+    max-height: 65vh;
+  }
+}
+
+.editor-calendar-booking-change-modal-content-wrp {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100vw - 2 * 10px - 2 * 45px);
+}
+
+@media only screen and (max-width: 325px) {
+  .editor-calendar-booking-change-modal-content-wrp {
+    max-width: calc(100vw - 2 * 10px - 2 * 15px);
+  }
+}
+
+#editor-calendar-booking-change-modal-content-wrp-cancel, #editor-calendar-technical-shutdown-change-modal-content-wrp-cancel {
+  width: 250px;
+}
+
+#editor-calendar-booking-change-modal-content-wrp-add-new {
+  max-width: 100%;
+}
+
+#editor-calendar-booking-change-modal-content-wrp-technical-shutdown {
+  width: 569px;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 640px) {
+  #editor-calendar-booking-change-modal-content-wrp-technical-shutdown {
+    width: auto;
+    flex-direction: column;
+  }
+}
+
+.editor-calendar-booking-change-modal-txt {
+  font-size: 14.5px;
+  letter-spacing: 0.9px;
+  line-height: 1.38;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.editor-calendar-booking-change-modal-btn-wrp {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.editor-calendar-booking-change-modal-btn {
+  margin: 0px 3px;
+}
+
+@media only screen and (max-width: 550px) {
+  #modal-cover-editor-calendar-cancel-booking-blck {
+    padding-left: calc(100vw * 45 / 550);
+    padding-right: calc(100vw * 45 / 550);
+  }
+}
+
+#editor-calendar-cancel-booking-ask-wrp {
+  display: table;
+}
+
+#editor-calendar-cancel-booking-about-wrp {
+  display: none;
+}
+
+#editor-calendar-cancel-booking-ask-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#editor-calendar-cancel-booking-ask-txt-wrp {
+  display: table;
+  width: 400px;
+  max-width: calc(100vw - 2 * 45px - 2 * 25px);
+  table-layout: fixed;
+}
+
+@media only screen and (max-width: 550px) {
+  #modal-cover-editor-calendar-cancel-booking-blck {
+    padding-left: calc(100vw * 45 / 550);
+    padding-right: calc(100vw * 45 / 550);
+  }
+
+  #editor-calendar-cancel-booking-ask-txt-wrp {
+    max-width: calc(100vw - 2 * (100vw * 45 / 550) - 2 * 25px);
+  }
+}
+
+#editor-calendar-cancel-booking-ask-txt-title, #editor-calendar-cancel-booking-ask-txt-desc {
+  width: 100%;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+#editor-calendar-cancel-booking-ask-txt-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+}
+
+#editor-calendar-cancel-booking-ask-txt-desc {
+  color: #d1d1d1;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 17px;
+}
+
+#editor-calendar-cancel-booking-ask-btn-wrp {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.editor-calendar-cancel-booking-ask-btn {
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}

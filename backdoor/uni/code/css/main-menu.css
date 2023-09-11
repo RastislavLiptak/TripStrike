@@ -1,0 +1,114 @@
+:root {
+  --b-d-main-menu-width: 230px;
+}
+
+#main-menu-size {
+  display: block;
+}
+
+#main-menu-size, #main-menu-wrp {
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.main-menu-size-show {
+  width: calc(var(--b-d-main-menu-width) - var(--body-padding));
+}
+
+@media only screen and (min-width: 2500px) {
+  .main-menu-size-show {
+    width: 0px;
+  }
+}
+
+.main-menu-size-hide {
+  width: 0px;
+}
+
+#main-menu-wrp {
+  position: fixed;
+  display: block;
+  left: 0px;
+  width: var(--b-d-main-menu-width);
+  height: calc(100vh - var(--b-d-header-height));
+  border-right: 1px solid rgb(34, 35, 37);
+  overflow: auto;
+}
+
+.main-menu-size-show #main-menu-wrp {
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  -o-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.main-menu-size-hide #main-menu-wrp {
+  -webkit-transform: translateX(-101%);
+  -moz-transform: translateX(-101%);
+  -ms-transform: translateX(-101%);
+  -o-transform: translateX(-101%);
+  transform: translateX(-101%);
+}
+
+#main-menu-content {
+  display: flex;
+  width: 100%;
+  padding-top: 13px;
+  padding-left: calc(var(--body-padding) + 4px);
+  padding-right: var(--body-padding);
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.main-menu-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main-menu-block-options-blck {
+  display: flex;
+  width: 100%;
+  padding-left: 17px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.main-menu-block a {
+  cursor: pointer;
+}
+
+.main-menu-block p {
+  cursor: default;
+}
+
+.main-menu-block-title, .main-menu-block-option-txt {
+  width: 100%;
+  color: #979797;
+  font-size: 14.5px;
+  line-height: 1.3;
+  font-weight: 400;
+  padding: 5px 0px;
+  letter-spacing: 1.2px;
+  overflow-wrap: break-word;
+  text-decoration: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.main-menu-block a:hover {
+  color: #fff;
+}
+
+.main-menu-block-selected {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+}

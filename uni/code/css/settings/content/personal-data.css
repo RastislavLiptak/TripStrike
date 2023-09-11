@@ -1,0 +1,25 @@
+.settings-input-birth-wrp {
+  display: block;
+}
+
+@media only screen and (max-width: 500px) {
+  .settings-input-birth-wrp {
+    margin-top: 6px;
+  }
+}
+
+.settings-input-birth {
+  color: #fff;
+  font-size: 14.2px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  width: 35px;
+  background-color: #3a3a3a;
+  border: 1px solid #4e4d4d;
+  margin: 3px 0px;
+  outline: none;
+}
+
+.settings-input-birth-long {
+  width: 55px;
+}

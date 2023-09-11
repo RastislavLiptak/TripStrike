@@ -1,0 +1,219 @@
+.cal-o-d-blck {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cal-o-d-about-wrp {
+  display: none;
+}
+
+.cal-o-d-btn {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  background-color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.cal-o-d-btn-unavailable {
+  cursor: default;
+}
+
+.cal-o-d-vertical-center {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  align-items: center;
+}
+
+.cal-o-d-size-height {
+  display: block;
+  width: 100%;
+  height: 85%;
+  position: relative;
+}
+
+.cal-o-d-track-wrp {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  flex-direction: row;
+}
+
+.cal-o-d-track-two-parts-wrp {
+  z-index: 2;
+}
+
+.cal-o-d-track-parts {
+  display: block;
+  flex: 1;
+  height: 100%;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.cal-o-d-track-part-rightside-rounded {
+  border-radius: 0 1000px 1000px 0;
+}
+
+.cal-o-d-track-part-leftside-rounded {
+  border-radius: 1000px 0 0 1000px;
+}
+
+.cal-o-d-btn-host-mode-past .cal-o-d-track-parts {
+  opacity: 0.35;
+}
+
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-day-between-from .cal-o-d-track-parts-two-first, .cal-o-d-btn-host-mode-past.cal-o-d-btn-day-between-to .cal-o-d-track-parts-two-second {
+  opacity: 0.35;
+}
+
+.cal-o-d-btn-host-mode-past .cal-o-d-track-parts-one,
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-day-between-from .cal-o-d-track-parts-one,
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-day-between-to .cal-o-d-track-parts-one,
+.cal-o-d-btn-reserved-firsthalf-only.cal-o-d-btn-reserved-secondhalf-only .cal-o-d-track-parts-one {
+  opacity: 0;
+}
+
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-reserved-firstday .cal-o-d-track-parts-one,
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-reserved-lastday .cal-o-d-track-parts-one {
+  opacity: 0.35;
+}
+
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-from .cal-o-d-track-parts,
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-day-between-from .cal-o-d-track-parts,
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-day-between .cal-o-d-track-parts,
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-to .cal-o-d-track-parts,
+.cal-o-d-btn-host-mode-past.cal-o-d-btn-day-between-to .cal-o-d-track-parts {
+  opacity: 1;
+}
+
+.cal-o-d-btn-day-between .cal-o-d-track-part-rightside-rounded, .cal-o-d-btn-day-between .cal-o-d-track-part-leftside-rounded, .cal-o-d-btn-day-between-to .cal-o-d-track-parts-two-first.cal-o-d-track-part-rightside-rounded,  .cal-o-d-btn-day-between-from .cal-o-d-track-parts-two-second.cal-o-d-track-part-leftside-rounded {
+  border-radius: 0px;
+}
+
+.cal-o-d-circle-wrp {
+  display: block;
+  height: 100%;
+  width: 85%;
+  position: relative;
+  margin: 0px auto;
+}
+
+.cal-o-d-circle {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 3;
+  position: absolute;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.cal-o-d-btn-from .cal-o-d-circle {
+  border: 2px solid #fff;
+}
+
+.cal-o-d-num-wrp {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+
+.cal-o-d-btn-host-mode-past .cal-o-d-num-wrp {
+  opacity: 0.35;
+}
+
+.cal-o-d-btn-hover .cal-o-d-num-wrp, .cal-o-d-btn-from .cal-o-d-num-wrp, .cal-o-d-btn-to .cal-o-d-num-wrp, .cal-o-d-btn-day-between .cal-o-d-num-wrp {
+  opacity: 1;
+}
+
+.cal-o-d-num {
+  width: 100%;
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.1px;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.cal-o-d-btn-unavailable .cal-o-d-num {
+  opacity: 0.1;
+}
+
+.cal-o-d-btn-from .cal-o-d-num, .cal-o-d-btn-to .cal-o-d-num {
+  background: none;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+.cal-is-small .cal-o-d-num-today, .cal-o-d-num-wrp-reserved .cal-o-d-num-today, .cal-o-d-btn-hover .cal-o-d-num-today, .cal-o-d-btn-from .cal-o-d-num-today, .cal-o-d-btn-to .cal-o-d-num-today, .cal-o-d-btn-day-between .cal-o-d-num-today {
+  color: #8ab4f8;
+}
+
+.cal-o-d-red-dot {
+  display: table;
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  bottom: -4px;
+  left: 50%;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: #8ab4f8;
+  -webkit-transform: translate(-50%, 100%);
+  -moz-transform: translate(-50%, 100%);
+  -ms-transform: translate(-50%, 100%);
+  -o-transform: translate(-50%, 100%);
+  transform: translate(-50%, 100%);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.cal-is-small .cal-o-d-red-dot, .cal-o-d-num-wrp-reserved .cal-o-d-red-dot, .cal-o-d-btn-hover .cal-o-d-red-dot, .cal-o-d-btn-from .cal-o-d-red-dot, .cal-o-d-btn-to .cal-o-d-red-dot, .cal-o-d-btn-day-between .cal-o-d-red-dot {
+  opacity: 0;
+  height: 3px;
+  width: 3px;
+  bottom: 2px;
+}
+
+.cal-is-small .cal-o-d-btn-unavailable .cal-o-d-red-dot {
+  opacity: 1 !important;
+}

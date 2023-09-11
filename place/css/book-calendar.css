@@ -1,0 +1,81 @@
+#cal-content-wrp-book-calendar-wrp {
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.cal-error-txt-book-calendar-wrp {
+  color: #c1c1c1;
+}
+
+.cal-slider-arrow-btn-site-wrp-book-calendar-wrp {
+  background-image: linear-gradient(270deg, rgba(51,51,51,0) 0%, rgba(51,51,51,1) 50%);
+}
+
+.cal-slider-arrow-btn {
+  background-position: left 5px center;
+  background-image: url(../../uni/icons/arrow-left.svg);
+  background-size: auto 35%;
+}
+
+.cal-o-m-days-name-book-calendar-wrp {
+  color: #9c9fa2;
+}
+
+.cal-o-d-btn-limited-firsthalf-book-calendar-wrp .cal-o-d-num {
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.1) 50%, rgba(255,255,255,1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cal-o-d-btn-limited-secondhalf-book-calendar-wrp .cal-o-d-num {
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0.1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cal-o-d-track-part-book-calendar-wrp {
+  background-color: #4e4e4e;
+}
+
+.cal-o-d-btn-hover .cal-o-d-circle-book-calendar-wrp-available,
+.cal-o-d-btn-hover .cal-o-d-circle-book-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-hover .cal-o-d-circle-book-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-hover .cal-o-d-circle-book-calendar-wrp-not-reserved {
+  background-color: #3c3b3b;
+}
+
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-available,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-not-reserved,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-reserved,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-reserved-lastday,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-reserved-firstday,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-reserved-firsthalf-only,
+.cal-o-d-btn-from .cal-o-d-circle-book-calendar-wrp-reserved-secondhalf-only {
+  background-color: #312d2d;
+}
+
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-available,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-not-reserved,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-reserved,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-reserved-lastday,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-reserved-firstday,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-reserved-firsthalf-only,
+.cal-o-d-btn-to .cal-o-d-circle-book-calendar-wrp-reserved-secondhalf-only {
+  background-color: #909096;
+}
+
+.cal-o-d-btn-day-between .cal-o-d-track-parts-one,
+.cal-o-d-btn-day-between .cal-o-d-track-parts-two-first,
+.cal-o-d-btn-day-between .cal-o-d-track-parts-two-second,
+.cal-o-d-btn-day-between .cal-o-d-circle-book-calendar-wrp-available,
+.cal-o-d-btn-day-between .cal-o-d-circle-book-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-day-between .cal-o-d-circle-book-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-day-between .cal-o-d-circle-book-calendar-wrp-not-reserved,
+.cal-o-d-btn-day-between-from .cal-o-d-track-parts-two-second,
+.cal-o-d-btn-day-between-to .cal-o-d-track-parts-two-first {
+  background-color: #565555;
+}

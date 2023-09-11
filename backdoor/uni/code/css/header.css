@@ -1,0 +1,123 @@
+:root {
+  --b-d-header-height: 55px;
+}
+
+#b-d-header-size {
+  display: table;
+  width: 100%;
+  height: var(--b-d-header-height);
+}
+
+#b-d-header-wrp {
+  display: table;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1000000;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgb(34, 35, 37);
+  padding: 0px var(--body-padding);
+  box-sizing: border-box;
+}
+
+@supports not (backdrop-filter: blur(15px)) {
+  @media all and (min-resolution:.001dpcm) { /* filter safari */
+    #b-d-header-wrp {
+      background-color: rgba(0,0,0,0.92);
+    }
+  }
+}
+
+#b-d-header-layout {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#b-d-header-left-block, #b-d-header-right-block {
+  display: flex;
+  height: var(--b-d-header-height);
+  flex-direction: row;
+  align-items: center;
+}
+
+#b-d-header-right-block {
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+  #b-d-header-right-block {
+    display: none;
+  }
+}
+
+#b-d-header-menu-btn-wrp {
+  display: table;
+  margin-right: 7px;
+}
+
+#b-d-header-menu-btn {
+  display: table;
+  height: 50px;
+  width: 30px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url(../../../../uni/icons/menu.svg);
+  background-position: center;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+#b-d-header-title-wrp {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+#b-d-header-title {
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+#b-d-header-subtitle {
+  color: #a5a5a5;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 7px;
+}
+
+#b-d-header-tools-wrp {
+  display: flex;
+  flex-direction: row;
+}
+
+#b-d-header-switch-to-public {
+  color: #9aecff;
+  opacity: 0.75;
+  font-size: 14.5px;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#b-d-header-switch-to-public:hover {
+  opacity: 1;
+}

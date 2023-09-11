@@ -1,0 +1,130 @@
+#editor-content-price-input-blcks-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 65px;
+}
+
+@media only screen and (max-width: 530px) {
+  #editor-content-price-input-blcks-layout {
+    flex-direction: column;
+  }
+}
+
+.editor-content-price-input-blck {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.editor-content-price-input-blck:first-child {
+  padding-right: 20px;
+}
+
+.editor-content-price-input-blck:last-child {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 530px) {
+  .editor-content-price-input-blck:first-child {
+    padding-right: 0px;
+  }
+
+  .editor-content-price-input-blck:last-child {
+    padding-left: 0px;
+    padding-top: 40px;
+  }
+}
+
+.editor-content-price-input-txt-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.editor-content-price-input-title {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin-bottom: 9px;
+}
+
+.editor-content-price-input-subtitle {
+  color: #999;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin-bottom: 22px;
+}
+
+.editor-content-price-input-layout {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.editor-content-price-input-field {
+  width: 100px;
+}
+
+.editor-content-price-currency {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 6px;
+}
+
+#editor-content-price-mode-layout-wrp {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.editor-content-price-mode-txt {
+  font-size: 15.5px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+}
+
+.editor-content-price-mode-select-wrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#editor-select-price-mode {
+  width: 100%;
+}
+
+#editor-content-price-notify-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 20px;
+}
+
+#editor-content-price-notify-txt {
+  width: 100%;
+  color: #979797;
+  font-size: 13.5px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0.6px;
+  text-align: center;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}

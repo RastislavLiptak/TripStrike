@@ -1,0 +1,116 @@
+.modal-cover {
+  display: none;
+  position: fixed;
+  z-index: 1000000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.modal-cover-up {
+  z-index: 1000001;
+}
+
+.modal-cover-up-2 {
+  z-index: 1000002;
+}
+
+.modal-block {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #272727;
+  border: 1px solid #434343;
+  border-radius: 2.5px;
+  z-index: 10001;
+  padding: 45px;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.alert-error-wrp, .alert-blck-wrp {
+  display: flex;
+  flex-direction: column;
+}
+
+.alert-error-block-w-btn, .alert-block-w-btn {
+  padding-bottom: 35px;
+}
+
+.alert-error-p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.alert-error-thin, .alert-error-thin .alert-error-btn-wrp {
+  width: 250px;
+}
+
+
+.alert-error-wide, .alert-error-wide .alert-error-btn-wrp {
+  width: 400px;
+}
+
+.alert-error-btn-wrp {
+  display: table;
+  padding-top: 30px;
+}
+
+.alert-error-btn-wrp button {
+  margin: 0 auto;
+}
+
+.modal-loader-wrp {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  flex-direction: column;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.modal-loader-img {
+  display: table;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.modal-loader-txt {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}

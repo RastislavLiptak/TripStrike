@@ -1,0 +1,77 @@
+.bookings-list-wrp {
+  display: table;
+  width: calc(100% - 2 * 20px);
+  max-width: 950px;
+  padding-top: 57px;
+  padding-bottom: 50px;
+  margin: 0px auto;
+}
+
+.bookings-list-layout {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.bookings-list-header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.bookings-list-title-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.bookings-list-title-txt {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1.22;
+  letter-spacing: 0.7px;
+  text-align: left;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 575px) {
+  .bookings-list-title-txt {
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.8px;
+  }
+}
+
+.bookings-list-header-tools-wrp {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.bookings-list-header-tools-btn {
+  display: table;
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+  opacity: 0.75;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.bookings-list-header-tools-btn:hover {
+  opacity: 0.95;
+}
+
+.table td:nth-child(5) {
+  text-align: right;
+}

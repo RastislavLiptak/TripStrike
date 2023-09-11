@@ -1,0 +1,49 @@
+.n-c-basics-row {
+  display: table;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.n-c-basics-input-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.n-c-basics-row-title-wrp {
+  display: table;
+  width: auto;
+  margin-right: 18px;
+}
+
+#n-c-basics-title-txt {
+  padding: 13px 0px;
+}
+
+#n-c-basics-description-txt {
+  padding: 8px 0px;
+}
+
+#n-c-input-text-title {
+  width: 240px;
+  min-width: 240px;
+}
+
+#n-c-input-width-resize-wrp-title {
+  display: block;
+  position: absolute;
+  z-index: -100;
+  opacity: 0;
+}
+
+#n-c-input-width-resize-txt-title {
+  font-size: 15.3px;
+  line-height: 1.35;
+  letter-spacing: 1.25px;
+}
+
+@media only screen and (max-width: 415px) {
+  #n-c-textarea-description {
+    height: 260px;
+  }
+}

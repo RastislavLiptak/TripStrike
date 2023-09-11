@@ -1,0 +1,188 @@
+#p-d-a-block-calendar {
+  display: none;
+}
+
+#plc-calendar-size {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#plc-calendar-wrp {
+  display: block;
+  width: 100%;
+}
+
+#cal-content-wrp-plc-calendar-wrp {
+  background-color: #1b1b1b;
+  border-radius: 10px;
+}
+
+.cal-error-txt-plc-calendar-wrp {
+  color: #808080;
+}
+
+.cal-slider-arrow-btn-site-wrp-plc-calendar-wrp {
+  background-image: linear-gradient(270deg, rgba(28,28,28,0) 0%, rgba(28,28,28,1) 50%);
+}
+
+.cal-slider-arrow-btn {
+  background-position: left 5px center;
+  background-image: url(../../uni/icons/arrow-left.svg);
+  background-size: auto 35%;
+}
+
+.cal-o-m-days-name-plc-calendar-wrp {
+  color: #818386;
+}
+
+.cal-o-d-btn-limited-firsthalf-plc-calendar-wrp .cal-o-d-num {
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.1) 50%, rgba(255,255,255,1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cal-o-d-btn-limited-secondhalf-plc-calendar-wrp .cal-o-d-num {
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0.1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cal-o-d-track-part-plc-calendar-wrp {
+  background-color: #313131;
+}
+
+.cal-o-d-btn-hover .cal-o-d-circle-plc-calendar-wrp-available,
+.cal-o-d-btn-hover .cal-o-d-circle-plc-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-hover .cal-o-d-circle-plc-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-hover .cal-o-d-circle-plc-calendar-wrp-not-reserved {
+  background-color: #313131;
+}
+
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-available,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-not-reserved,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-reserved,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-reserved-lastday,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-reserved-firstday,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-reserved-firsthalf-only,
+.cal-o-d-btn-from .cal-o-d-circle-plc-calendar-wrp-reserved-secondhalf-only {
+  background-color: #191919;
+}
+
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-available,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-not-reserved,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-reserved,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-reserved-lastday,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-reserved-firstday,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-reserved-firsthalf-only,
+.cal-o-d-btn-to .cal-o-d-circle-plc-calendar-wrp-reserved-secondhalf-only {
+  background-color: #7d7d7d;
+}
+
+.cal-o-d-btn-day-between .cal-o-d-track-parts-one,
+.cal-o-d-btn-day-between .cal-o-d-track-parts-two-first,
+.cal-o-d-btn-day-between .cal-o-d-track-parts-two-second,
+.cal-o-d-btn-day-between .cal-o-d-circle-plc-calendar-wrp-available,
+.cal-o-d-btn-day-between .cal-o-d-circle-plc-calendar-wrp-limited-firsthalf,
+.cal-o-d-btn-day-between .cal-o-d-circle-plc-calendar-wrp-limited-secondhalf,
+.cal-o-d-btn-day-between .cal-o-d-circle-plc-calendar-wrp-not-reserved,
+.cal-o-d-btn-day-between-from .cal-o-d-track-parts-two-second,
+.cal-o-d-btn-day-between-to .cal-o-d-track-parts-two-first {
+  background-color: #565555;
+}
+
+#plc-calendar-footer {
+  display: none;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#plc-calendar-footer-layout {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.plc-calendar-footer-calc-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#plc-calendar-footer-calc-section-week {
+  display: none;
+}
+
+.plc-calendar-footer-calc-section-txt {
+  font-size: 15px;
+  letter-spacing: 0.95px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+#plc-calendar-footer-calc-total {
+  font-weight: 600;
+  margin-right: 9px;
+}
+
+.plc-calendar-footer-calc-section-txt-times {
+  margin-right: 6px;
+}
+
+.plc-calendar-footer-calc-marks {
+  opacity: 0.7;
+  margin: 0px 7px;
+}
+
+#plc-calendar-footer-calc-marks-plus {
+  display: none;
+}
+
+#plc-calendar-footer-btn {
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  padding: 0px;
+  outline: none;
+  border: none;
+}
+
+#plc-calendar-footer-btn-txt {
+  color: #2196f3;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+#plc-calendar-footer-btn-icn {
+  display: table;
+  height: 15px;
+  width: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/icons/add5.svg);
+  background-size: 72%;
+  margin-left: 2px;
+}
+
+#plc-calendar-operation {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+#plc-calendar-operation-txt {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.7px;
+  line-height: 1.45;
+  color: #757575;
+}

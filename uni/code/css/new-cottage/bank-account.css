@@ -1,0 +1,157 @@
+#modal-cover-nc-bank-account-blck {
+  padding-right: 25px;
+  padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 482px) {
+  #modal-cover-nc-bank-account-blck {
+    padding-right: 5.1867vw;
+    padding-left: 9.336vw;
+  }
+}
+
+#nc-bank-account-wrp {
+  display: flex;
+  width: 350px;
+  max-height: calc(100vh - 2 * 20px - 45px - 35px);
+  flex-direction: column;
+  padding-right: 20px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 482px) {
+  #nc-bank-account-wrp {
+    width: calc(100vw - 2 * 20px - 2 * 9.336vw);
+    padding-right: 4.1493vw;
+  }
+}
+
+#nc-bank-account-error-wrp {
+  display: none;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 4px;
+}
+
+#nc-bank-account-error-txt {
+  width: 100%;
+  color: #f51212;
+  font-size: 13.5px;
+  letter-spacing: 0.8px;
+  overflow-wrap: break-word;
+}
+
+.nc-bank-account-txt-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#nc-bank-account-txt-title {
+  font-size: 20.5px;
+  line-height: 1.35;
+  letter-spacing: 0.4px;
+  overflow-wrap: break-word;
+  margin-bottom: 7px;
+}
+
+.nc-bank-account-txt-desc {
+  font-size: 13.6px;
+  line-height: 1.35;
+  letter-spacing: 0.7px;
+  overflow-wrap: break-word;
+  color: #b2b2b2;
+}
+
+#nc-bank-account-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 13px;
+}
+
+@media only screen and (max-width: 420px) {
+  #nc-bank-account-form {
+    margin-top: 25px;
+  }
+}
+
+#nc-bank-account-form-content-wrp {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 21px;
+}
+
+.nc-bank-account-form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 420px) {
+  .nc-bank-account-form-row {
+    margin-bottom: 28px;
+  }
+}
+
+.nc-bank-account-form-input-wrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 420px) {
+  .nc-bank-account-form-input-wrp {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.nc-bank-account-form-input-title {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+  margin-right: 12px;
+}
+
+.nc-bank-account-form-input {
+  width: 100%;
+  max-width: 220px;
+  font-size: 14.2px;
+  padding: 10px 0px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  color: #dfdfdf;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.nc-bank-account-form-input:focus {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+@media only screen and (max-width: 420px) {
+  .nc-bank-account-form-input {
+    max-width: 100%;
+  }
+}
+
+#nc-bank-account-form-submit-wrp {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#nc-bank-account-form-submit-btn {
+  background-repeat: no-repeat;
+  background-position: center;
+}

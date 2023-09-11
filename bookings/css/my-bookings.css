@@ -1,0 +1,98 @@
+#bookings-list-table-my-bookings td:nth-child(1) {
+  max-width: 125px;
+}
+
+#bookings-list-table-my-bookings td:nth-child(2) {
+  max-width: 240px;
+}
+
+#bookings-list-table-my-bookings td:nth-child(3) {
+  max-width: 200px;
+}
+
+#bookings-list-table-my-bookings td:nth-child(4) {
+  max-width: 90px;
+}
+
+#bookings-list-table-my-bookings td:nth-child(5) {
+  max-width: 120px;
+}
+
+@media only screen and (max-width: 862px) {
+  #bookings-list-table-my-bookings td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(2) {
+    max-width: calc(240 * ((100vw * 800 / 862) - 125px - 120px) / 565);
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(3) {
+    max-width: calc(200 * ((100vw * 800 / 862) - 125px - 120px) / 565);
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(4) {
+    max-width: calc(90 * ((100vw * 800 / 862) - 125px - 120px) / 565);
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  #bookings-list-table-my-bookings td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(2) {
+    max-width: calc(240 * ((100vw * 800 / 862) - 125px - 120px) / 475);
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(3) {
+    max-width: calc(200 * ((100vw * 800 / 862) - 125px - 120px) / 475);
+  }
+
+  #bookings-list-table-my-bookings th:nth-child(4),
+  #bookings-list-table-my-bookings td:nth-child(4) {
+    display: none;
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  #bookings-list-table-my-bookings th:nth-child(1),
+  #bookings-list-table-my-bookings td:nth-child(1) {
+    display: none;
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(2) {
+    max-width: calc(275 * ((100vw * 800 / 862) - 120px) / 475);
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(3) {
+    max-width: calc(200 * ((100vw * 800 / 862) - 120px) / 475);
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #bookings-list-table-my-bookings th:nth-child(2),
+  #bookings-list-table-my-bookings td:nth-child(2) {
+    display: none;
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(3) {
+    max-width: calc((100vw * 800 / 862) - 120px);
+  }
+
+  #bookings-list-table-my-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}

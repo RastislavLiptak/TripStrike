@@ -1,0 +1,24 @@
+.chart-uni-statistics-title-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 23px;
+}
+
+.chart-uni-statistics-details-block {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.chart-uni-statistics-details-txt-size {
+  display: flex;
+  flex: 1;
+  margin-left: 6px;
+}
+
+.chart-uni-statistics-details-txt-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}

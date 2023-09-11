@@ -1,0 +1,88 @@
+#modal-cover-sign-in-blck, #modal-cover-sign-up-blck {
+  padding: 0px;
+}
+
+.sign-in-size {
+  display: block;
+  padding: 20px;
+  padding-right: 15px;
+  padding-top: 45px;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.sign-in-form-body {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+  max-width: calc(100vw - 2 * 20px - 2 * 20px);
+  max-height: calc(100vh - 2 * 20px - 20px - 45px - 30px);
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.sign-in-title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.sign-in-error-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin: 17px 0px;
+}
+
+.sign-in-error-txt {
+  color: #ff4b4b;
+  font-size: 13px;
+  letter-spacing: 1px;
+  overflow-wrap: break-word;
+  text-align: center;
+  width: 100%;
+}
+
+.sign-in-form-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.sign-in-form-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.sign-in-footer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sign-in-footer-switch-btn {
+  color: #6b6b6b;
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: none;
+}
+
+.sign-in-footer-switch-btn:hover {
+  color: #969696;
+}
+
+.sign-in-footer-submit-btn {
+  background-position: center;
+  background-repeat: no-repeat;
+}

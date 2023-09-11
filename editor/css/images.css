@@ -1,0 +1,596 @@
+#editor-images-wrp {
+  display: table;
+  width: 100%;
+  margin: 40px 0px;
+}
+
+@media only screen and (max-width: 640px) {
+  #editor-images-wrp {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+}
+
+#editor-images-layout-wrp {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#editor-images-position-wrp {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#editor-images-list {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.editor-image-prim, .editor-image-sec {
+  display: table;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --img-prim-width: 510px;
+  --img-prim-height: 310px;
+  --img-sec-width: 367.5px;
+  --img-sec-height: 220px;
+}
+
+@media only screen and (max-width: 775px) {
+  :root {
+    --img-sec-height: 240px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  :root {
+    --img-prim-width: calc(100vw - 2 * 20px - 2 * var(--body-padding));
+    --img-prim-height: calc((100vw - 2 * 20px - 2 * var(--body-padding)) * 310 / 510);
+  }
+}
+
+.editor-image-prim {
+  width: var(--img-prim-width);
+  height: var(--img-prim-height);
+  border-radius: 15px;
+}
+
+.editor-image-sec {
+  z-index: -1;
+  opacity: 0.7;
+  width: var(--img-sec-width);
+  height: var(--img-sec-height);
+  border-radius: 10px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 640px) {
+  .editor-image-sec {
+    display: none;
+  }
+}
+
+.editor-image-sec:first-child {
+  left: 0px;
+  -webkit-transform: translateX(-54%);
+  -moz-transform: translateX(-54%);
+  -ms-transform: translateX(-54%);
+  -o-transform: translateX(-54%);
+  transform: translateX(-54%);
+}
+
+.editor-image-sec:nth-child(2) {
+  right: 0px;
+  -webkit-transform: translateX(54%);
+  -moz-transform: translateX(54%);
+  -ms-transform: translateX(54%);
+  -o-transform: translateX(54%);
+  transform: translateX(54%);
+}
+
+@media only screen and (max-width: 1012px) {
+  .editor-image-sec:first-child {
+    left: calc((1012px - 100vw) * 0.5);
+  }
+
+  .editor-image-sec:nth-child(2) {
+    right: calc((1012px - 100vw) * 0.5);
+  }
+}
+
+#editor-image-def-wrp {
+  display: flex;
+  width: var(--img-prim-width);
+  height: var(--img-prim-height);
+  align-items: center;
+  justify-content: center;
+  background-color: #2e3235;
+  border-radius: 15px;
+}
+
+#editor-image-def-icon {
+  display: table;
+  height: 150px;
+  width: 150px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/icons/home5.svg);
+  background-size: 100%;
+}
+
+#editor-images-btn-wrp {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#editor-images-btn {
+  display: table;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  background-color: transparent;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/icons/edit2.svg);
+  background-size: 15px;
+  padding: 10px 0px;
+  padding-right: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  opacity: 0.7;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+#editor-images-btn:hover {
+  opacity: 1;
+}
+
+#modal-cover-plc-image-editor-blck {
+  padding-right: 25px;
+}
+
+#plc-image-editor-content {
+  display: flex;
+  width: 550px;
+  height: 400px;
+  max-height: calc(100vh - 2 * 25px - 2 * 45px);
+  overflow: auto;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 690px) {
+  #modal-cover-plc-image-editor-blck {
+    padding-left: calc(45 * 100vw / 1000);
+    padding-right: calc(25 * 100vw / 1000);
+  }
+
+  #plc-image-editor-content {
+    padding-right: calc(20 * 100vw / 1000);
+  }
+
+  #plc-image-editor-content {
+    width: calc(100vw - 2 * 25px - 2 * (45 * 100vw / 1000));
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #modal-cover-plc-image-editor-blck {
+    padding-left: calc(45 * 100vw / 750);
+    padding-right: calc(25 * 100vw / 750);
+  }
+
+  #plc-image-editor-content {
+    padding-right: calc(20 * 100vw / 750);
+  }
+
+  #plc-image-editor-content {
+    height: 500px;
+    width: calc(100vw - 2 * 25px - 2 * (45 * 100vw / 750));
+  }
+}
+
+#plc-image-editor-header-wrp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#plc-image-editor-header-txt-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#plc-image-editor-header-txt-title {
+  font-size: 36px;
+  letter-spacing: -0.3px;
+  color: rgba(144, 144, 144, 0.85);
+  overflow-wrap: break-word;
+}
+
+#plc-image-editor-error-wrp, #plc-image-editor-loader-wrp {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+#plc-image-editor-loader-wrp {
+  align-items: center;
+  justify-content: center;
+}
+
+#plc-image-editor-loader {
+  display: table;
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/gifs/loader-tail.svg);
+  background-size: 75%;
+}
+
+@media only screen and (max-width: 320px) and (orientation:portrait) {
+  #plc-image-editor-loader {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
+@media only screen and (max-height: 320px) and (orientation:landscape) {
+  #plc-image-editor-loader {
+    width: 25vh;
+    height: 25vh;
+  }
+}
+
+#plc-image-editor-error-title {
+  font-size: 30px;
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  text-align: left;
+  margin-bottom: 14px;
+  overflow-wrap: break-word;
+}
+
+#plc-image-editor-error-code {
+  width: 100%;
+  color: #c7c7c7;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.8px;
+  overflow-wrap: break-word;
+}
+
+#plc-image-editor-error-reset-btn-wrp {
+  margin-top: 25px;
+}
+
+#plc-image-editor-grid-error-wrp {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+}
+
+#plc-image-editor-grid-error {
+  width: 100%;
+  color: #ff5050;
+  font-size: 13px;
+  line-height: 1.3;
+  letter-spacing: 0.8px;
+  text-align: left;
+  overflow-wrap: break-word;
+  margin-bottom: 17px;
+}
+
+#plc-image-editor-grid {
+  display: none;
+  width: 100%;
+  grid-gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 690px) {
+  #plc-image-editor-grid {
+    grid-gap: calc(25 * 100vw / 690);
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #plc-image-editor-grid {
+    grid-gap: calc(35 * 100vw / 470);
+    grid-template-columns: 1fr;
+  }
+}
+
+.plc-image-edit-wrp {
+  display: table;
+  width: 100%;
+}
+
+.plc-image-edit-size {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 10px;
+  background-color: #202020;
+  overflow: hidden;
+}
+
+.plc-image-edit-img {
+  display: table;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.plc-image-edit-loader-wrp, .plc-image-edit-tools-wrp {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.plc-image-edit-loader-wrp {
+  display: none;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33, 33, 33, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+@supports not (backdrop-filter: blur(5px)) {
+  @media all and (min-resolution:.001dpcm) { /* filter safari */
+    .plc-image-edit-loader-wrp {
+      background-color: rgba(53, 53, 53, 0.8);
+    }
+  }
+}
+
+.plc-image-edit-loader {
+  display: table;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/gifs/loader-tail.svg);
+  background-size: 75%;
+}
+
+.plc-image-edit-tools-wrp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 10px;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.plc-image-edit-wrp:hover .plc-image-edit-tools-wrp {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.plc-image-edit-delete {
+  display: table;
+  width: 21px;
+  height: 21px;
+  padding: 0px;
+  opacity: 0;
+  float: left;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/icons/cancel2.svg);
+  background-size: 67%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.plc-image-edit-wrp:hover .plc-image-edit-delete {
+  opacity: 1;
+}
+
+.plc-image-edit-checkbox-wrp {
+  display: table;
+  opacity: 0;
+  float: right;
+  position: relative;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.plc-image-edit-wrp-prim .plc-image-edit-checkbox-wrp {
+  opacity: 0.95;
+}
+
+.plc-image-edit-wrp:hover .plc-image-edit-checkbox-wrp {
+  opacity: 1;
+}
+
+.plc-image-edit-checkbox-loader {
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 4;
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/gifs/loader-tail.svg);
+  background-size: 125%;
+}
+
+.plc-image-edit-checkbox-label {
+  display: block;
+  width: 21px;
+  height: 21px;
+  opacity: 1;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.plc-image-edit-checkbox-input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.plc-image-edit-checkbox-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.plc-image-edit-checkbox-label input:checked ~ .plc-image-edit-checkbox-checkmark {
+  background-color: #2f85d0;
+  border-color: #2f85d0;
+}
+
+.plc-image-edit-checkbox-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.plc-image-edit-checkbox-label input:checked ~ .plc-image-edit-checkbox-checkmark:after {
+  display: block;
+}
+
+.plc-image-edit-checkbox-label .plc-image-edit-checkbox-checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 3px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#plc-image-edit-add-images-plus-icon {
+  display: table;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url(../../uni/icons/add-image.svg);
+  background-size: 75%;
+  background-position: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+@media only screen and (max-width: 650px) {
+  #plc-image-edit-add-images-plus-icon {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #plc-image-edit-add-images-plus-icon {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media only screen and (max-width: 339px) {
+  #plc-image-edit-add-images-plus-icon {
+    width: 19.174vw;
+    height: 19.174vw;
+  }
+}
+
+#plc-image-edit-add-images-file {
+  display: none;
+}
+
+#plc-image-edit-add-images-file-active-area {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  border: 1px dashed #9e9e9e;
+  border-radius: 10px;
+  z-index: 2;
+  cursor: pointer;
+}

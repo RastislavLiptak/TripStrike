@@ -1,0 +1,231 @@
+:root {
+  --body-padding: calc(10px + 1px); /* 10px for header padding and 1px for overflow */
+  --scrollbar-width: 0px;
+}
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0px var(--body-padding);
+  overflow: auto;
+}
+
+.body-overflow-hidden {
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, p, a, div, span, button, textarea {
+  color: #fff;
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1.25px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.lang-img {
+  border-radius: 50%;
+}
+
+.btn {
+  display: table;
+  letter-spacing: 0px;
+  border-radius: 4px;
+  font-weight: 400;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.btn-sml {
+  font-size: 12px;
+  padding: 5px 7px;
+}
+
+.btn-mid {
+  font-size: 13.5px;
+  padding: 6px 10px;
+}
+
+.btn-big {
+  font-size: 14.5px;
+  padding: 7px 11px;
+}
+
+.btn-prim {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-prim:hover {
+  background-color: #286090 !important;
+  border-color: #204d74 !important;
+}
+
+.btn-prim:focus {
+  background-color: #204d74 !important;
+  border-color: #122b40 !important;
+}
+
+.btn-sec {
+  color: #adadad;
+  background-color: transparent;
+  border-color: #6f6f6f;
+}
+
+.btn-sec:hover {
+  color: #a9a9a9;
+  background-color: #212121 !important;
+  border-color: #5a5a5a !important;
+}
+
+.btn-sec:focus {
+  color: #636363;
+  background-color: #1d1d1d !important;
+  border-color: #3e3e3e !important;
+}
+
+.btn-thrd {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-thrd:hover {
+  background-color: #138496 !important;
+  border-color: #117a8b !important;
+}
+
+.btn-thrd:focus {
+  background-color: #117a8b !important;
+  border-color: #10707f !important;
+}
+
+.btn-frth {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-frth:hover {
+  background-color: #2d3135 !important;
+  border-color: #2d3235 !important;
+}
+
+.btn-frth:focus {
+  background-color: #1d2124 !important;
+  border-color: #171a1d !important;
+}
+
+.btn-fth {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-fth:hover {
+  color: #fff;
+  background-color: #c82333 !important;
+  border-color: #bd2130 !important;
+}
+
+.btn-fth:focus {
+  color: #fff;
+  background-color: #bd2130 !important;
+  border-color: #b21f2d !important;
+}
+
+.btn-sxth {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn-sxth:hover {
+  color: #fff;
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+}
+
+.btn-sxth:focus {
+  color: #fff;
+  background-color: #218838 !important;
+  border-color: #255625 !important;
+}
+
+.cancel-btn {
+  position: fixed;
+  display: table;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  padding: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url("../../icons/cancel.svg");
+  background-size: 57.5%;
+  background-position: center;
+  cursor: pointer;
+  z-index: 10;
+  outline: none;
+  border: none;
+}
+
+.page-error {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.page-error-p {
+  font-size: 15px;
+  line-height: 1.75;
+  text-align: center;
+  max-width: 75vw;
+}
+
+.page-error-btn-wrp {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.page-error-btn {
+  margin: 5px;
+}
+
+[data-title]:hover::before {
+  content: attr(data-title);
+  display: inline-block;
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  white-space: nowrap;
+  left: -5px;
+  padding: 3px 6px;
+  border-radius: 2px;
+  background-color: #525158;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}

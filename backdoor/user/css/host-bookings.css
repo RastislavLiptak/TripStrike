@@ -1,0 +1,76 @@
+#table-filter-wrp-host-bookings {
+  margin-top: 0px;
+}
+
+.b-d-host-bookings-table-row td:last-child {
+  text-align: right;
+}
+
+#b-d-host-bookings-table td:nth-child(2) {
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #b-d-host-bookings-table td:nth-child(2) {
+    max-width: calc(250 * 100vw / 1400);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #b-d-host-bookings-table td:nth-child(2) {
+    max-width: calc(200 * 100vw / 1200);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #b-d-host-bookings-table td:nth-child(2) {
+    max-width: calc(150 * 100vw / 1000);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #b-d-host-bookings-table td:nth-child(2) {
+    max-width: calc(200 * 100vw / 880);
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #b-d-host-bookings-table td:nth-child(2) {
+    max-width: calc(210 * 100vw / 550);
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #b-d-host-bookings-table th:nth-child(4),
+  #b-d-host-bookings-table td:nth-child(4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #b-d-host-bookings-table th:nth-child(6),
+  #b-d-host-bookings-table td:nth-child(6) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #b-d-host-bookings-table th:nth-child(5),
+  #b-d-host-bookings-table td:nth-child(5) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #b-d-host-bookings-table th:nth-child(3),
+  #b-d-host-bookings-table td:nth-child(3) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #b-d-host-bookings-table th:nth-child(2),
+  #b-d-host-bookings-table td:nth-child(2) {
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+#editor-footer-wrp {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#editor-footer-error-wrp {
+  display: none;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 55px;
+}
+
+#editor-footer-error-txt {
+  width: 100%;
+  color: #ff6565;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+#editor-footer-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.editor-footer-block {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.editor-footer-block-center {
+  flex: 0;
+  padding: 0px 45px;
+}
+
+#editor-save-btn {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.editor-footer-block-line {
+  display: table;
+  width: 100%;
+  height: 1px;
+  background-color: #3a3a3a;
+}

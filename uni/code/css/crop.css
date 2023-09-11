@@ -1,0 +1,187 @@
+.crop-input {
+  display: none;
+}
+
+.crop-wrp {
+  position: relative;
+}
+
+.crop-content {
+  width: 100%;
+  display: table;
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.crop-def {
+  display: flex;
+}
+
+.crop-tool-wrap {
+  display: none;
+}
+
+.crop-loader {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.crop-error {
+  color: #ec2b2b;
+}
+
+.crop-block-wrap {
+  display: table;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.crop-cover {
+  display: table;
+  background-color: rgba(0,0,0,0.7);
+  float: left;
+}
+
+.crop-cover-top, .crop-cover-bottom {
+  width: 100%;
+  height: 25%;
+}
+
+.crop-cover-left, .crop-cover-right {
+  width: 25%;
+  height: 50%;
+}
+
+.crop {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0,0,0,0.0);
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.crop-move {
+  position: absolute;
+  display: table;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+  z-index: 1;
+}
+
+.crop-resize-btn {
+  position: absolute;
+  display: table;
+  height: 10px;
+  width: 10px;
+  padding: 0;
+  z-index: 2;
+  background-color: rgba(0,0,0,1);
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.crop-resize-btn-1 {
+  top: 0;
+  left: 0;
+  cursor: nw-resize;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.crop-resize-btn-2 {
+  top: 0;
+  right: 0;
+  cursor: ne-resize;
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  -o-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+
+.crop-resize-btn-3 {
+  bottom: 0;
+  left: 0;
+  cursor: sw-resize;
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+
+.crop-resize-btn-4 {
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+  -webkit-transform: translate(50%, 50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
+.crop-final-wrap {
+  display: none;
+}
+
+.crop-final {
+  display: table;
+  cursor: pointer;
+}
+
+.crop-prof-img-def {
+  display: block;
+  width: 220px;
+  max-width: 50%;
+}
+
+.crop-prof-img-def p {
+  width: 100%;
+  text-align: center;
+  color: #adadad;
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.crop-prof-img-def img {
+  display: table;
+  width: 100px;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 17%;
+  margin-top: 15px;
+}

@@ -1,0 +1,52 @@
+Booking terms and conditions
+
+These conditions apply to every guest who books a stay using our website. Registered users must agree to this document when creating their account and the operator is obliged to inform them of all changes and modifications using the email address that these users have chosen as their contact. Unregistered guests must agree to this document when making a booking. If the guest does not agree with something that is written in the document, or does not intend to respect it, he can contact the site operator and at the same time may not create new bookings.
+
+
+Information required in the booking:
+
+Name:
+The guest name serves as one of the basic identifiers. It is used by the host to identify and address guests when managing the booking and communicating with the guest.
+
+E-mail:
+The hosts will be able to communicate with their guests using the email address provided in the form. At the same time, all important messages and notifications sent by the site provider are sent to this email. This information is also used to identify an already registered account. If the entered email address matches the email of one of the existing profiles, the site will request the password of this account and, if filled in correctly, it will assign the newly created booking to this user. However, if an account with the same email was not found and a profile with this information will be created in the future, the system will instead assign all old bookings where the email is located to the newly created account.
+
+Telephone number:
+The telephone number serves as the guest's contact information for the host.
+
+Number of guests:
+The number of guests is one of the basic parameters of every booking. It is used to inform the host about the number of visitors and in the case of some cottages it is also the data determining the price of the stay. Only infants up to the age of 2 are not included in the number of guests.
+
+From/To:
+This information will determine the term of the booking. Thanks to this information, the total price of the booking is then calculated.
+
+The number of guests and the date of the booking are shared with the host to whom the cottage belongs as soon as the booking is made. The remaining data will be available to this host when the stay is confirmed. After the booking is confirmed, until the time of its completion or cancellation, the guest and the host have access to all data and can change and modify them at their discretion. The site system then automatically notifies the other party if any change occurs. After the booking, modifications are allowed only to the host.
+
+
+Data records:
+
+All information provided in the booking is stored in our database, where it is located until the booking is canceled, which can occur either by cancellation of the guest or the host, or by the system itself in one of the automatic processes. The only exceptions are information about stays that the host tried to delete or change after the stay. In this case, the data for the public is deleted or modified, but remains unchanged in our archive.
+
+
+Booking offer:
+
+After completing and sending the booking, this booking is first offered to the hosts, who can confirm or reject it according to their abilities. Only after booking confirmation the stay is fully valid and binding for both parties.
+
+
+Rejection and cancellation of stays:
+
+The host has the right to reject all booking requests offered to him. If he does not respond to the offer, it will be automatically rejected 12 hours before the start date of the stay.
+
+The cancellation fee can be retained or requested by the host if the booking is canceled less than 2 weeks before the start date of the stay. If the period is longer or the host cancels the booking himself, the guest is entitled to a refund of all money paid so far.
+
+
+Automatic cancellation after non-payment of the deposit:
+
+Upon receipt of the booking by the host, the guest has 48 hours to pay at least the required deposit, or the full amount for their stay. Failure to do so will result in the automatic cancellation of this booking.
+
+This does not apply to stays made less than 48 hours before the start of the stay.
+
+
+Deposit:
+
+The total price of the booking must be greater than or equal to EUR 50 in order for host to request a deposit. If it does not reach this limit, the full amount is required.

@@ -1,0 +1,53 @@
+#nc-data-processing-wrp {
+  display: none;
+  width: 274px;
+  max-width: calc(100vw - 2 * 15px - 2 * 20px);
+  flex-direction: column;
+}
+
+#nc-data-processing-loader-wrp {
+  display: block;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+#nc-data-processing-loader-icon {
+  display: table;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.nc-data-processing-text-wrp {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#nc-data-processing-text-title-wrp {
+  margin: 7px 0px;
+}
+
+#nc-data-processing-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+#nc-data-processing-description {
+  color: #d6d6d6;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1.1px;
+  text-align: left;
+  overflow-wrap: break-word;
+}

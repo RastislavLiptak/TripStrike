@@ -1,0 +1,26 @@
+.body-overflow-hidden {
+  padding-right: calc(var(--body-padding) + 9px);
+}
+
+#u-a-details-block-desc-description-wrp::-webkit-scrollbar {
+  background-color: transparent;
+  width: 9px;
+}
+
+#u-a-details-block-desc-description-wrp::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #111214;
+}
+
+#u-a-details-block-desc-description-wrp::-webkit-scrollbar-thumb {
+  background-color: #3e3f44;
+  border-radius: 2px;
+}
+
+#u-a-details-block-desc-description-wrp::-webkit-scrollbar-thumb:hover {
+  background-color: #4a4b50;
+}
+
+#u-a-details-block-desc-description-wrp::-webkit-scrollbar-button {
+  display: none;
+}

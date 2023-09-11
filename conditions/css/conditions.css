@@ -1,0 +1,14 @@
+#conditions-wrp {
+  display: table;
+  margin: 0px auto;
+}
+
+#conditions-txt {
+  color: #848e92;
+  font-size: 16px;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  width: 900px;
+  max-width: 80vw;
+  min-width: 300px;
+}

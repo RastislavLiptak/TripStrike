@@ -1,0 +1,227 @@
+#settings-crop-wrp {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#set-curr-prof-img-wrp {
+  overflow: hidden;
+  position: relative;
+}
+
+#set-curr-prof-img {
+  box-shadow: 3px 3px 19px 0px #00000036;
+}
+
+#crop-wrp-2 {
+  width: 100%;
+  border: 1px dotted #b1b1b1;
+  background-color: #212325;
+  border-radius: 3px;
+  position: relative;
+}
+
+#sett-crop-img-btn, #set-curr-prof-img-wrp, #set-curr-prof-img {
+  width: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#modal-cover-prof-img-blck {
+  padding: 35px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  #modal-cover-prof-img-blck {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+#crop-wrp-2, #crop-img-2, #crop-final-2, #crop-def-2 {
+  height: 500px;
+  width: 500px;
+  max-width: calc(100vw - 2 * 25px - 2 * 35px);
+  max-height: calc(100vw - 2 * 25px - 2 * 35px);
+}
+
+@media screen and (orientation:landscape) {
+  #crop-wrp-2, #crop-img-2, #crop-final-2, #crop-def-2 {
+    max-width: calc(100vh - 2 * 25px - 2 * 35px);
+    max-height: calc(100vh - 2 * 25px - 2 * 35px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #crop-wrp-2, #crop-img-2, #crop-final-2, #crop-def-2 {
+    max-width: calc(100vw - 2 * 25px - 2 * 15px);
+    max-height: calc(100vw - 2 * 25px - 2 * 15px);
+  }
+}
+
+#sett-crop-img-btn {
+  display: table;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+#sett-crop-img-btn:hover #sett-crop-img-icn-wrp {
+  opacity: 1;
+}
+
+#sett-crop-img-icn-wrp {
+  position: absolute;
+  display: table;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.32);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+#sett-crop-img-icn-blck {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  flex-direction: column;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#sett-crop-img-icn {
+  display: table;
+  height: 25px;
+  width: 25px;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+#sett-crop-img-icn-txt {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: center;
+  width: 100px;
+  margin-top: 8px;
+}
+
+#crop-def-2 {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+#crop-error-wrp-2 {
+  display: table;
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: calc(574px + 2 * 25px)) {
+  #crop-error-wrp-2 {
+    max-width: calc(100vw - 2 * 25px - 2 * 35px);
+  }
+}
+
+@media screen and (orientation:landscape) and (max-height: calc(585px + 2 * 25px)) {
+  #crop-error-wrp-2 {
+    max-width: calc(100vh - 2 * 25px - 2 * 35px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #crop-error-wrp-2 {
+    max-width: calc(100vw - 2 * 25px - 2 * 15px);
+  }
+}
+
+.crop-change-btn-dis-2 {
+  opacity: 0.3 !important;
+  cursor: default;
+}
+
+.crop-change-btn-dis-2:hover, .crop-change-btn-dis-2:focus {
+  color: #adadad;
+  background-color: transparent;
+  border-color: #6f6f6f;
+}
+
+#crop-loader-2 {
+  height: 70px;
+  max-height: 70%;
+}
+
+#crop-error-wrp-2 {
+  margin: 0px auto;
+}
+
+.crop-error-2 {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 8px;
+  display: none;
+  overflow-wrap: break-word;
+}
+
+#mod-profile-img-btns-wrp {
+  opacity: 1;
+  display: table;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#mod-profile-img-btns-center {
+  display: table;
+  margin: 0 auto;
+}
+
+#crop-change-btn-2 {
+  float: left;
+  display: table;
+  margin: 0 4px;
+}
+
+#crop-btn-2 {
+  float: left;
+  opacity: 0;
+  margin: 0;
+  max-width: 0px;
+  padding: 0;
+  border-width: 0px;
+  display: none;
+}
+
+#crop-change-btn-2, #crop-btn-2 {
+  display: none;
+  opacity: 0;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}

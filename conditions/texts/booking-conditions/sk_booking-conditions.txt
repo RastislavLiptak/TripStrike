@@ -1,0 +1,52 @@
+Rezervačné zmluvné podmienky
+
+Tieto podmienky sa vzťahujú na každého hosťa, ktorý si pomocou nášho webu rezervuje pobyt. Registrovaný užívatelia s týmto dokumentom musia súhlasiť pri vytváraní svojho účtu a prevádzkovateľ má povinnosť ich, pomocou emailovej adresy, ktorú si títo užívatelia zvolili ako kontaktnú, informovať o všetkých zmenách a úpravách. Neregistrovaný hostia musia s týmto dokumentom súhlasiť pri vytváraní rezervácie. Pokiaľ hosť nesúhlasí s niečím, čo je v dokumente napísané, alebo to nehodlá rešpektovať, môže sa obrátiť na prevádzkovateľa stránky a zároveň nesmie vytvárať nové rezervácie.
+
+
+Informácie požadované v rezervácii:
+
+Meno:
+Meno hosťa slúži ako jeden zo základných identifikačných znakov. Hostiteľovi slúži na rozpoznanie a oslovenie hostí pri správe rezervácie a komunikácii s hosťom.
+
+Email:
+Pomocou emailovej adresy uvedenej vo formulári budú môcť hostitelia so svojimi hosťami komunikovať. Zároveň sú na tento email odosielané všetky dôležité oznámenia a upozornenia odoslané poskytovateľom stránky. Tento údaj tiež slúži na prípadnú identifikáciu už registrovaného účtu, kedy pokiaľ sa zadaná emailová adresa zhoduje s emailom niektorého z existujúcich profilov, stránka si vyžiada heslo tohto účtu a po správnom vyplnení priradí novo vytvorenú rezerváciu k tomuto užívateľovi. Pokiaľ ale účet so zhodným emailom nájdený nebol a profil s týmto údajom bude vytvorený v budúcnosti, systém naopak priradí všetky staré rezervácie, kde sa email nachádza k novo vytvorenému účtu.
+
+Telefónne číslo:
+Telefónne číslo slúži ako kontaktný údaj na osobu hosťa pre hostiteľa.
+
+Počet hostí:
+Počet hostí je jedným zo základných parametrov každej rezervácie. Slúži na informovanie hostiteľa o počte návštevníkov a v prípade niektorých chát sa jedná aj o údaj určujúci cenu pobytu. Do počtu hostí sa nezapočítavajú iba dojčatá do veku 2 rokov.
+
+Od/Do:
+Táto informácia určí, od kedy do kedy potrvá pobyt, ktorý si hosť plánuje rezervovať. Vďaka tomuto údaju je potom vypočítaná aj celková cena rezervácie.
+
+Počet hostí a termín rezervácie sú s hostiteľom, ktorému chata patrí, zdieľané hneď po vytvorení rezervácie. Zvyšné údaje budú tomuto hostiteľovi dostupné, až pobyt potvrdí. Po tom, čo je rezervácia potvrdená, až do doby jej prebehnutia či zrušenia má hosť aj hostiteľ prístup ku všetkým údajom a môžu ich podľa svojho uváženia meniť a upravovať. Systém stránky potom automaticky informuje, pokiaľ k nejakej zmene dôjde, druhú stranu. Po prebehnutí rezervácie sú úpravy umožnené už iba hostiteľovi.
+
+
+Evidencia údajov:
+
+Všetky údaje uvedené v rezervácii sú uložené v našej databáze, kde sa nachádzajú až do doby, než dôjde k zrušeniu danej rezervácie, k čomu môže dôjsť buď tak, že ju zruší hosť alebo hostiteľ, alebo systém sám pri niektorom z automatických procesov. Výnimkou sú iba informácie o pobytoch, ktoré sa hostiteľ pokúsil odstrániť alebo zmeniť po prebehnutí daného pobytu. V takom prípade sú dáta pre verejnosť odstránené alebo upravené, ale zostávajú nezmenené v našom archíve.
+
+
+Žiadosť o rezerváciu:
+
+Po vyplnení a odoslaní rezervácie je táto rezervácia najskôr ponúknutá hostiteľom, ktorí ju podľa svojich možností môžu prijať, alebo odmietnuť. Až po prijatí pobytu je rezervácia plne platná a pre obe strany záväzná.
+
+
+Zamietnutie a zrušenie pobytov:
+
+Hostiteľ má právo zamietnuť všetky žiadosti o rezervácie, ktoré sú mu ponúknuté. Pokiaľ na ponuku nebude reagovať, bude zamietnutá automaticky 12 hodín pred termínom začiatku daného pobytu.
+
+Poplatok za zrušenie rezervácie si hostiteľ môže ponechať, alebo ho môže po hosťoch požadovať, pokiaľ bude rezervácia zrušená menej ako 2 týždne pred termínom začiatku pobytu. Pokiaľ je doba dlhšia, alebo rezerváciu zruší hostiteľ osobne, má hosť nárok na vrátenie všetkých doposiaľ uhradených peňazí.
+
+
+Automatické zrušenie rezervácie po neuhradení zálohy:
+
+Hosť má po prijatí rezervácie hostiteľom 48 hodín na to, aby uhradil aspoň požadovanú zálohu, prípadne celú sumu za svoj pobyt. Pokiaľ tak neurobí, bude táto rezervácia automaticky zrušená.
+
+Toto sa netýka pobytov vytvorených menej ako 48 hodín pred začiatkom samotného pobytu.
+
+
+Záloha:
+
+Aby mohla byť po hosťoch požadovaná záloha, musí byť celková cena rezervácie vyššia alebo rovná 50 euro. Pokiaľ túto hranicu nedosiahne, je požadovaná rovno celá suma.

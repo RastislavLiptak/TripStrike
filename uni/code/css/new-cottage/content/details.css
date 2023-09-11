@@ -1,0 +1,223 @@
+.n-c-details-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+#n-c-type-wrp, #n-c-number-of-wrp, #n-c-distance-from-the-water-wrp, #n-c-operation-wrp, #n-c-url-id-wrp {
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.n-c-number-of-blck, .n-c-select-blck {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+
+.n-c-select-blck-operation-season-select {
+  display: none;
+}
+
+@media only screen and (max-width: 385px) {
+  #n-c-number-of-blck-distance-from-the-water {
+    align-items: unset;
+    flex-direction: column;
+  }
+}
+
+#n-c-distance-from-the-water-inpt-wrp {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 385px) {
+  #n-c-distance-from-the-water-inpt-wrp {
+    margin-top: 10px;
+  }
+}
+
+.n-c-input-number-details {
+  width: 50px;
+  font-size: 15.3px;
+  letter-spacing: 1.25px;
+  text-align: right;
+  padding: 6px 0px;
+  margin-left: 10px;
+}
+
+#n-c-input-number-details-distance-from-the-water {
+  width: 80px;
+}
+
+@media only screen and (max-width: 385px) {
+  #n-c-input-number-details-distance-from-the-water {
+    margin-left: 0px;
+  }
+}
+
+.n-c-select-details {
+  width: 135px;
+  font-size: 13.5px;
+  letter-spacing: 0.8px;
+  text-align: right;
+  padding: 7px 2px;
+  margin-left: 10px;
+}
+
+.n-c-select-details-sml {
+  width: 95px;
+  font-size: 12px;
+  letter-spacing: 0.65px;
+  text-align: right;
+  padding: 5px 2px;
+  margin-left: 5px;
+}
+
+#n-c-select-type {
+  height: 33px;
+}
+
+#n-c-equipment-wrp {
+  flex-direction: column;
+}
+
+#n-c-equipment-blck {
+  display: table;
+  width: 100%;
+  margin-top: 13px;
+}
+
+#n-c-equipment-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+}
+
+#n-c-equipment-add-btn-wrp {
+  display: flex;
+  height: 33px;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#n-c-equipment-add-btn {
+  display: table;
+  height: 16px;
+  width: 16px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../../../icons/add3.svg);
+  background-size: 55%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.n-c-equi-block {
+  display: table;
+  position: relative;
+  background-color: #3a3a3a;
+  border-radius: 16px;
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+
+.n-c-equi-block-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 7px;
+  min-height: 21px;
+}
+
+.n-c-equi-block-img {
+  display: table;
+  height: 21px;
+  width: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.n-c-equi-block-img-txt {
+  display: none;
+}
+
+.n-c-equi-block-p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  padding-left: 4px;
+  max-width: calc(600px - 2 * 20px - 2 * 7px - 4px - 21px - 9px);
+  overflow-wrap: break-word;
+}
+
+@media only screen and (max-width: calc(600px + 2 * 15px)) {
+  .n-c-equi-block-p {
+    max-width: calc(100vw - 2px - 2 * 15px - 2 * 20px - 2 * 7px - 4px - 21px - 9px);
+  }
+}
+
+.n-c-block-remove {
+  display: table;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  opacity: 0;
+  margin-left: 0px;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../../../uni/icons/cancel.svg");
+  background-size: auto 60%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-transform: translate(-25%, -25%);
+  -moz-transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  -o-transform: translate(-25%, -25%);
+  transform: translate(-25%, -25%);
+}
+
+.n-c-equi-block:hover .n-c-block-remove {
+  opacity: 1;
+}
+
+#n-c-url-id-txt, #n-c-url-id-input {
+  font-size: 13px;
+  line-height: 1.35;
+  color: #2997ff;
+  letter-spacing: 0.5px;
+}
+
+#n-c-url-id-txt {
+  margin-right: 5px;
+}
+
+#n-c-url-id-input {
+  display: table;
+  width: 150px;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-weight: 600;
+  padding: 3px 0px;
+  border: none;
+  outline: none;
+}

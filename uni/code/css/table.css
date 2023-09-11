@@ -1,0 +1,248 @@
+.table-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.table-filter-wrp {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin: 19px auto;
+}
+
+.table-filter-search-bar-wrp {
+  display: table;
+  flex: 1;
+  position: relative;
+}
+
+.table-filter-search-bar-input {
+  display: table;
+  width: 100%;
+  color: #fff;
+  font-size: 15.5px;
+  background-color: #333;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12.5px 44px;
+  border: none;
+  outline: none;
+}
+
+.table-filter-search-bar-input-btn {
+  display: table;
+  top: 0px;
+  bottom: 0px;
+  width: 43px;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0px;
+  outline: 0px;
+  border: 0px;
+}
+
+.table-filter-search-bar-input-btn-search {
+  background-image: url("../../../uni/icons/search2.svg");
+  background-size: 46%;
+  left: 0px;
+}
+
+.table-filter-search-bar-input-btn-cancel {
+  background-image: url("../../../uni/icons/cancel4.svg");
+  background-size: 34%;
+  right: 0px;
+}
+
+.table-filter-tools-wrp {
+  display: flex;
+  flex: 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.table-filter-tools-search-bar-wrp {
+  display: table;
+  width: 20vw;
+  max-width: 250px;
+  min-width: 125px;
+  position: relative;
+  margin-left: 15px;
+}
+
+.table-filter-select-wrp {
+  display: table;
+  margin-left: 10px;
+}
+
+.table-filter-select {
+  display: table;
+  width: auto;
+  color: #d9d9d9;
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.8px;
+  background-color: transparent;
+  padding: 0px 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.table-filter-select option {
+  color: #000;
+}
+
+.table-filter-table-wrp {
+  display: table;
+  margin-left: 15px;
+}
+
+.table-wrp {
+  display: table;
+  width: 100%;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table, .table th, .table td {
+  border: none;
+  border-collapse: collapse;
+}
+
+.table th, .table td, .table td span, .table td a, .table td i {
+  text-align: left;
+  line-height: 1.25;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.table th, .table td {
+  padding: 11px 10px;
+}
+
+.table th {
+  color: #979797;
+  font-size: 14.5px;
+  letter-spacing: 0.5px;
+}
+
+.table td, .table td span, .table td a {
+  font-size: 16px;
+  letter-spacing: 0.7px;
+}
+
+.table td {
+  border-top: 1px solid #333;
+}
+
+.table td a {
+  text-decoration: none;
+}
+
+.table td a:hover {
+  text-decoration: underline;
+}
+
+.table-row-link-blue {
+  color: #1a77c2;
+}
+
+.table-row-link-blue:hover {
+  color: #2196f3;
+  text-decoration: none !important;
+}
+
+.table td i {
+  opacity: 0.5;
+}
+
+.table-data-green {
+  color: #41b941;
+}
+
+.table-data-red {
+  color: #ff3636;
+}
+
+.table-about-wrp {
+  display: none;
+}
+
+.table-tools-wrp {
+  display: table;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.table-tools-loader-wrp, .table-tools-load-more-wrp, .table-tools-no-content-wrp, .table-tools-errors-wrp {
+  display: none;
+  justify-content: center;
+}
+
+.table-tools-errors-wrp {
+  margin-bottom: 25px;
+}
+
+.table-tools-no-content-wrp {
+  padding-top: 5px;
+}
+
+.table-tools-feature-not-available-wrp {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.table-tools-errors-txt-size {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table-tools-no-content-txt, .table-tools-errors-txt {
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.table-tools-errors-txt {
+  color: #ff6060;
+}
+
+.table-tools-loader-img {
+  display: table;
+  height: 35px;
+  width: 35px;
+}
+
+.table-tools-load-more-btn {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.table-tools-feature-not-available-btn-wrp {
+  display: flex;
+  justify-content: center;
+}
+
+.table-tools-feature-not-available-txt {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+}

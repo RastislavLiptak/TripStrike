@@ -1,0 +1,97 @@
+<?php
+  include "../../../uni/code/php-backend/data.php";
+  include "../../../uni/code/php-backend/get-frontend-id.php";
+  include "../../../uni/code/php-backend/get-data-from-date.php";
+  include "../../../uni/dictionary/lang-select.php";
+  include "../../../uni/code/php-backend/get-user.php";
+  include "../../uni/code/php-backend/check-sign-in.php";
+  include "get-list-of-bookings-fees.php";
+  header('Content-Type: application/json');
+  $output = [];
+  $lastID = mysqli_real_escape_string($link, $_POST['lastID']);
+  $search = mysqli_real_escape_string($link, $_POST['search']);
+  $backDoorCheckSignInSts = backDoorCheckSignIn();
+  if ($backDoorCheckSignInSts == "good") {
+    if ($lastID != "") {
+      $sqlIdToBeId = $link->query("SELECT beid FROM idlist WHERE id='$lastID' LIMIT 1");
+      $lastBeID = $sqlIdToBeId->fetch_assoc()["beid"];
+    } else {
+      $lastBeID = "";
+    }
+    $loadedListData = getListOfBookingsFees("load-amount", $lastBeID, $search);
+    array_push($output, [
+      "type" => "load-amount",
+      "all-bookings" => $loadedListData['all-bookings'],
+      "loaded" => $loadedListData['loaded'],
+      "remain" => $loadedListData['remain']
+    ]);
+    $listOfBookingsFees = getListOfBookingsFees("list", $lastBeID, $search);
+    for ($lOBF=0; $lOBF < sizeof($listOfBookingsFees); $lOBF++) {
+      if ($listOfBookingsFees[$lOBF]['status'] == "") {
+        $bookingSts = "<i>".$wrd_unknown." (empty)</i>";
+      } else if ($listOfBookingsFees[$lOBF]['status'] == "-") {
+        $bookingSts = "<i>".$wrd_unknown." (-)</i>";
+      } else if ($listOfBookingsFees[$lOBF]['status'] == "rejected") {
+        $bookingSts = "<i>".$wrd_rejected."</i>";
+      } else if ($listOfBookingsFees[$lOBF]['status'] == "canceled") {
+        $bookingSts = "<i>".$wrd_canceled."</i>";
+      } else if ($listOfBookingsFees[$lOBF]['status'] == "waiting") {
+        $bookingSts = $wrd_waitingForConfirmation;
+      } else if ($listOfBookingsFees[$lOBF]['status'] == "booked") {
+        $bookingSts = $wrd_booked;
+      } else if ($listOfBookingsFees[$lOBF]['status'] == "paid") {
+        $bookingSts = "<span class='table-data-green'>".$wrd_paid."</span>";
+      } else if ($listOfBookingsFees[$lOBF]['status'] == "unpaid") {
+        $bookingSts = "<span class='table-data-red'>".$wrd_unpaid."</span>";
+      }
+      if ($listOfBookingsFees[$lOBF]['plcSts'] == "active") {
+        $plcName = $listOfBookingsFees[$lOBF]['plcName'];
+      } else {
+        if ($listOfBookingsFees[$lOBF]['plcName'] != "-") {
+          $plcName = "<i>".$listOfBookingsFees[$lOBF]['plcName']."</i>";
+        } else {
+          $plcName = "<i>".$wrd_placeDeleted."</i>";
+        }
+      }
+      array_push($output, [
+        "type" => "booking",
+        "status" => $bookingSts,
+        "bookingID" => $listOfBookingsFees[$lOBF]['bookingID'],
+        "plcSts" => $listOfBookingsFees[$lOBF]['plcSts'],
+        "plcID" => $listOfBookingsFees[$lOBF]['plcID'],
+        "plcName" => $plcName,
+        "hostID" => $listOfBookingsFees[$lOBF]['hostID'],
+        "hostName" => $listOfBookingsFees[$lOBF]['hostName'],
+        "fromD" => $listOfBookingsFees[$lOBF]['fromD'],
+        "fromM" => $listOfBookingsFees[$lOBF]['fromM'],
+        "fromY" => $listOfBookingsFees[$lOBF]['fromY'],
+        "toD" => $listOfBookingsFees[$lOBF]['toD'],
+        "toM" => $listOfBookingsFees[$lOBF]['toM'],
+        "toY" => $listOfBookingsFees[$lOBF]['toY'],
+        "currency" => $listOfBookingsFees[$lOBF]['currency'],
+        "totalPrice" => $listOfBookingsFees[$lOBF]['totalPrice'],
+        "fee" => $listOfBookingsFees[$lOBF]['fee'],
+        "percentageFee" => $listOfBookingsFees[$lOBF]['percentageFee'],
+        "wShowMore" => $wrd_showMore
+      ]);
+    }
+    returnOutput();
+  } else {
+    error($backDoorCheckSignInSts);
+  }
+
+  function error($msg) {
+    global $output;
+    array_push($output, [
+      "type" => "error",
+      "error" => $msg
+    ]);
+    returnOutput();
+  }
+
+  function returnOutput() {
+    global $output;
+    $JSON = json_encode($output);
+    echo $JSON;
+  }
+?>

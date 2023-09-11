@@ -1,0 +1,114 @@
+#calcel-account {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#settings-cancel-account-data-wrp {
+  display: none;
+}
+
+#set-cancel-my-account-btn {
+  display: none;
+  position: absolute;
+  bottom: 12px;
+  opacity: 0;
+  left: 50%;
+  font-size: 13px;
+  padding: 5px 10px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+@media only screen and (max-width: 370px) {
+  #modal-cover-cancel-account-alert-blck, #modal-cover-cancel-account-partial-errors-blck {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+#cancel-profile-alert-modal-wrp, #cancel-profile-partial-errors-modal-wrp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cancel-profile-alert-modal-txt, #cancel-profile-partial-errors-modal-txt {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1.15px;
+  text-align: center;
+  width: 360px;
+}
+
+#cancel-profile-alert-modal-desc {
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0.9px;
+  text-align: center;
+  width: 360px;
+  margin-top: 8px;
+}
+
+#cancel-profile-partial-errors-modal-err {
+  color: #ff6a6a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0.9px;
+  text-align: center;
+  margin-top: 8px;
+  overflow: auto;
+  width: 360px;
+  max-height: 45vh;
+}
+
+@media only screen and (max-width: 502px) {
+  #cancel-profile-alert-modal-txt,
+  #cancel-profile-alert-modal-desc,
+  #cancel-profile-partial-errors-modal-txt,
+  #cancel-profile-partial-errors-modal-err {
+    width: calc(100vw - 2 * 25px - 2 * 45px);
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  #cancel-profile-alert-modal-txt,
+  #cancel-profile-alert-modal-desc,
+  #cancel-profile-partial-errors-modal-txt,
+  #cancel-profile-partial-errors-modal-err {
+    width: calc(100vw - 2 * 25px - 2 * 10vw);
+  }
+}
+
+#cancel-profile-alert-modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cancel-profile-alert-modal-footer-btn {
+  margin: 0px 5px;
+}
+
+@media only screen and (max-width: 278px) {
+  #cancel-profile-alert-modal-footer {
+    flex-direction: column-reverse;
+  }
+
+  .cancel-profile-alert-modal-footer-btn {
+    margin: 4px 0px;
+  }
+}

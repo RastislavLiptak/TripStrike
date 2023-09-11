@@ -1,0 +1,52 @@
+Terms and conditions
+
+These terms and conditions apply to all registered users who are using our services. At the same time, all active accounts have the full right to be informed of changes in this document and the service provider is obliged to inform of each user of any changes using the email address that this user has chosen as a contact. Users then agree to these conditions when creating their profile and subsequently using our services. However, if the owner of the profile does not agree with something or does not intend to respect it, he can contact the operator and at the same time he must stop operating all activities on our website.
+
+
+Use of required data:
+
+First name and surname:
+First name and last name serve as a username for easy user identification. This information is publicly available and can also be found in e-mails related to the profile to which the information belongs, in the form of the appointment of a guest or host.
+
+Email and phone number:
+This data is primarily intended to identify the user. Their position is unique and this means that it is not possible to use the same data twice for other profiles. They are used as login details and are therefore not publicly available.
+
+Contact email and contact phone number:
+Contact details are intended for contacting users. They are provided to the public and are also included in e-mail messages regarding the profile to which the data is assigned, either from the point of view of the host or the guest. At the same time, all messages sent by the system are sent to this address by the site. Although this data may match the login information, it is not intended for login, but may play a role in identification.
+
+Birthdate:
+The use of the services of this site is limited to persons over the age of eighteen and we need the date of birth to verify. At the same time, this data is used for the analysis of age groups and site usage. This information is private and not shared with the public in any way
+
+IBAN, Bank account number and BIC/SWIFT:
+Bank account information is required only for profiles that offers cottages for rent on our page. However, it is enough that only the IBAN data is filled in. This data is then available to all guests to whom the host to whom the data belongs has confirmed the stay or to whom this host has created a stay using our system.
+
+The user has access to all the above data at any time and can manage them at will.
+
+
+Adding content:
+
+The site is not responsible for all content added to it by any user. This responsibility falls on the profiles to which the content belongs. However, it has the right to censor or delete this content if it violates any of the following:
+
+1) The content must not offend, be vulgar, discriminate or show signs of racism or other repression of other people
+2) Added content must not contain false information
+3) Users may not add content that they do not own or have not a permission from the owner of that content to use it on this site
+4) None of the users are allowed to addcontent which has non-site focus
+5) The content must not be used to challenge, plan or commit violence in either mental or physical form
+
+Furthermore, the site is not responsible for all fees and taxes applicable to hosts who, through the activities of our services, generate profit.
+
+
+Fees for using the site's services:
+
+Booking fees are charged to hosts only for bookings they confirm. This means that fees are not charged for unconfirmed stays or stays created by the host himself. In addition, no fees are required for bookings that were canceled before the day of the start of the stay.
+
+Requests for payment are sent automatically every month and contain a list of all stays that have not yet been paid and ended no later than the previous month. These calls contain all the necessary information to pay, as well as a list of all bookings for which a fee is required.
+
+A confirmation of payment is sent to the hosts as soon as the payment information is entered into the system.
+
+The amount of fees may change over time. However, the fee cannot be changed for an existing booking.
+
+
+Data records:
+
+All content added to the user's page is stored in our database and on our server. Here, this data is stored until the user himself or the site operator deletes it. Data can also be deleted due to one of the automatic processes, such as automatic cancellation with an unpaid deposit. The only exceptions are information about stays that the user tried to delete or change after the stay. In this case, the data for the public is deleted or modified, but remains unchanged in our archive.

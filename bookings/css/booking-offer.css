@@ -1,0 +1,64 @@
+#booking-offer-wrp {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 2 * (58px + 35px));
+  align-items: center;
+  justify-content: center;
+}
+
+#booking-offer-blck {
+  display: flex;
+  flex-direction: column;
+}
+
+#booking-offer-img-wrp {
+  display: table;
+  margin: auto;
+}
+
+#booking-offer-img {
+  display: table;
+  height: 200px;
+  width: 200px;
+  max-height: 43vw;
+  max-width: 43vw;
+}
+
+#booking-offer-txt {
+  display: table;
+  width: 850px;
+  max-width: 80vw;
+  margin-top: 30px;
+  table-layout: fixed;
+}
+
+@media only screen and (max-width: 465.1162px) {
+  #booking-offer-txt {
+    margin-top: calc(100vw * 30 / 465.1162);
+  }
+}
+
+#booking-offer-txt-done, #booking-offer-txt-error {
+  width: 100%;
+  font-size: 30px;
+  line-height: 1.28;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+@media only screen and (max-width: 465.1162px) {
+  #booking-offer-txt-done, #booking-offer-txt-error {
+    font-size: calc(100vw * 30 / 465.1162);
+    letter-spacing: calc(100vw * 0.3 / 465.1162);
+  }
+}
+
+#booking-offer-txt-done {
+  color: #b8d8b8;
+}
+
+#booking-offer-txt-error {
+  color: #ff8080;
+}

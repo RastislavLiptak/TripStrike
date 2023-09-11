@@ -1,0 +1,268 @@
+.b-d-fees-table-wrp {
+  display: none;
+}
+
+.b-d-fees-table-selected {
+  display: table;
+}
+
+.b-d-fees-table-row td:last-child {
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+#b-d-fees-table-payment-reference td:nth-child(2) {
+  max-width: 250px;
+}
+
+#b-d-fees-table-payment-reference td:nth-child(6) {
+  width: 1%;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1400px) {
+  #b-d-fees-table-payment-reference td:nth-child(2) {
+    max-width: calc(250 * 100vw / 1400);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #b-d-fees-table-payment-reference td:nth-child(2) {
+    max-width: calc(200 * 100vw / 1200);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #b-d-fees-table-payment-reference td:nth-child(2) {
+    max-width: calc(250 * 100vw / 880);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #b-d-fees-table-payment-reference td:nth-child(2) {
+    max-width: calc(200 * 100vw / 700);
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #b-d-fees-table-payment-reference td:nth-child(2) {
+    max-width: calc(200 * 100vw / 525);
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #b-d-fees-table-payment-reference th:nth-child(4),
+  #b-d-fees-table-payment-reference td:nth-child(4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #b-d-fees-table-payment-reference th:nth-child(6),
+  #b-d-fees-table-payment-reference td:nth-child(6) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #b-d-fees-table-payment-reference th:nth-child(3),
+  #b-d-fees-table-payment-reference td:nth-child(3) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #b-d-fees-table-payment-reference th:nth-child(5),
+  #b-d-fees-table-payment-reference td:nth-child(5) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #b-d-fees-table-payment-reference th:nth-child(1),
+  #b-d-fees-table-payment-reference td:nth-child(1) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#b-d-fees-table-hosts td:nth-child(2) {
+  max-width: 250px;
+}
+
+#b-d-fees-table-hosts td:nth-child(7) {
+  width: 1%;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1400px) {
+  #b-d-fees-table-hosts td:nth-child(2) {
+    max-width: calc(250 * 100vw / 1400);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #b-d-fees-table-hosts td:nth-child(2) {
+    max-width: calc(200 * 100vw / 1200);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #b-d-fees-table-hosts td:nth-child(2) {
+    max-width: calc(250 * 100vw / 880);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #b-d-fees-table-hosts th:nth-child(4),
+  #b-d-fees-table-hosts td:nth-child(4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #b-d-fees-table-hosts th:nth-child(7),
+  #b-d-fees-table-hosts td:nth-child(7) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #b-d-fees-table-hosts th:nth-child(5),
+  #b-d-fees-table-hosts td:nth-child(5) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #b-d-fees-table-hosts th:nth-child(6),
+  #b-d-fees-table-hosts td:nth-child(6) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  #b-d-fees-table-hosts th:nth-child(3),
+  #b-d-fees-table-hosts td:nth-child(3) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #b-d-fees-table-hosts th:nth-child(2),
+  #b-d-fees-table-hosts td:nth-child(2) {
+    display: none;
+  }
+}
+
+#b-d-fees-table-bookings td:nth-child(2) {
+  max-width: 200px;
+}
+
+#b-d-fees-table-bookings td:nth-child(3) {
+  max-width: 200px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #b-d-fees-table-bookings td:nth-child(2) {
+    max-width: calc(200 * 100vw / (1300 + 325));
+  }
+
+  #b-d-fees-table-bookings td:nth-child(3) {
+    max-width: calc(200 * 100vw / (1300 + 325));
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #b-d-fees-table-bookings td:nth-child(2) {
+    max-width: calc(200 * 100vw / (1100 + 550));
+  }
+
+  #b-d-fees-table-bookings td:nth-child(3) {
+    max-width: calc(200 * 100vw / (1100 + 550));
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #b-d-fees-table-bookings td:nth-child(2) {
+    max-width: calc(170 * 100vw / 1000);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #b-d-fees-table-bookings td:nth-child(2) {
+    max-width: calc(250 * 100vw / 880);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #b-d-fees-table-bookings th:nth-child(5),
+  #b-d-fees-table-bookings td:nth-child(5) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #b-d-fees-table-bookings th:nth-child(7),
+  #b-d-fees-table-bookings td:nth-child(7) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #b-d-fees-table-bookings th:nth-child(3),
+  #b-d-fees-table-bookings td:nth-child(3) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #b-d-fees-table-bookings th:nth-child(6),
+  #b-d-fees-table-bookings td:nth-child(6) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #b-d-fees-table-bookings th:nth-child(4),
+  #b-d-fees-table-bookings td:nth-child(4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #b-d-fees-table-bookings th:nth-child(2),
+  #b-d-fees-table-bookings td:nth-child(2) {
+    display: none;
+  }
+}
+
+.b-d-fees-table-payment-btn {
+  background-position: center;
+  background-repeat: no-repeat;
+}

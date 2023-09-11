@@ -1,0 +1,63 @@
+#sign-in-form-body-in {
+  width: 340px;
+}
+
+.sign-in-input {
+  display: block;
+  width: 100%;
+  max-width: 275px;
+  color: #fff;
+  font-size: 14.5px;
+  letter-spacing: 1px;
+  line-height: 1.25;
+  box-sizing: border-box;
+  background-color: #3a3a3a;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.sign-in-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #909090;
+  opacity: 1;
+}
+
+.sign-in-input::-moz-placeholder { /* Firefox 19+ */
+  color: #909090;
+  opacity: 1;
+}
+
+.sign-in-input:-ms-input-placeholder { /* IE 10+ */
+  color: #909090;
+  opacity: 1;
+}
+
+.sign-in-input:-moz-placeholder { /* Firefox 18- */
+  color: #909090;
+  opacity: 1;
+}
+
+#sign-in-forgotten-password-btn {
+  display: table;
+  color: #336692;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.7px;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: auto;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+#sign-in-forgotten-password-btn:hover {
+  color: #3783c5;
+}

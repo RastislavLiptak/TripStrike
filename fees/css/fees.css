@@ -1,0 +1,275 @@
+#fees-details-modal-btn {
+  background-image: url(../../uni/icons/info4.svg);
+  background-size: 75%;
+}
+
+.fees-list-table-wrp {
+  display: none;
+}
+
+.fees-list-table-wrp-selected {
+  display: table;
+}
+
+#modal-cover-fees-details-blck {
+  padding-right: 25px;
+}
+
+@media only screen and (max-width: 525px) {
+  #modal-cover-fees-details-blck {
+    padding-left: calc(100vw * 45 / 525);
+    padding-right: calc(100vw * 25 / 525);
+  }
+}
+
+#fees-details-modal-size {
+  width: 490px;
+  height: 490px;
+  padding-right: 20px;
+  max-width: calc(100vw - 2 * 25px - 45px - 25px);
+  max-height: calc(100vh - 2 * 25px - 2 * 45px);
+  overflow: auto;
+}
+
+@media only screen and (max-width: 525px) {
+  #fees-details-modal-size {
+    padding-right: calc(100vw * 20 / 525);
+    max-width: calc(100vw - 2 * 25px - (100vw * 45 / 525) - (100vw * 20 / 525));
+  }
+}
+
+#fees-details-modal-layout {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.fees-details-modal-title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.7px;
+  overflow-wrap: break-word;
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.fees-details-modal-txt {
+  color: #bdbdbd;
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0.8px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+#fees-list-table-payment-reference td:nth-child(1) {
+  max-width: 150px;
+}
+
+#fees-list-table-payment-reference td:nth-child(2) {
+  max-width: 260px;
+}
+
+#fees-list-table-payment-reference td:nth-child(3) {
+  max-width: 120px;
+}
+
+#fees-list-table-payment-reference td:nth-child(4) {
+  max-width: 150px;
+}
+
+#fees-list-table-payment-reference td:nth-child(5) {
+  max-width: 120px;
+}
+
+@media only screen and (max-width: 1050px) {
+  #fees-list-table-payment-reference td:nth-child(1) {
+    max-width: 150px;
+  }
+
+  #fees-list-table-payment-reference td:nth-child(2) {
+    max-width: calc(260 * ((100vw * 800 / 1050) - 150px - 120px) / 565);
+  }
+
+  #fees-list-table-payment-reference td:nth-child(3) {
+    max-width: calc(120 * ((100vw * 800 / 1050) - 150px - 120px) / 565);
+  }
+
+  #fees-list-table-payment-reference td:nth-child(4) {
+    max-width: calc(150 * ((100vw * 800 / 1050) - 150px - 120px) / 565);
+  }
+
+  #fees-list-table-payment-reference td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  #fees-list-table-payment-reference td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #fees-list-table-payment-reference td:nth-child(2) {
+    max-width: calc(260 * ((100vw * 800 / 1050) - 125px - 120px) / 475);
+  }
+
+  #fees-list-table-payment-reference th:nth-child(3),
+  #fees-list-table-payment-reference td:nth-child(3) {
+    display: none;
+  }
+
+  #fees-list-table-payment-reference td:nth-child(4) {
+    max-width: calc(150 * ((100vw * 800 / 1050) - 125px - 120px) / 475);
+  }
+
+  #fees-list-table-payment-reference td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #fees-list-table-payment-reference td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #fees-list-table-payment-reference td:nth-child(2) {
+    max-width: calc(260 * ((100vw * 800 / 1050) - 125px - 120px) / 475);
+  }
+
+  #fees-list-table-payment-reference th:nth-child(4),
+  #fees-list-table-payment-reference td:nth-child(4) {
+    display: none;
+  }
+
+  #fees-list-table-payment-reference td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #fees-list-table-payment-reference td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #fees-list-table-payment-reference th:nth-child(2),
+  #fees-list-table-payment-reference td:nth-child(2) {
+    display: none;
+  }
+
+  #fees-list-table-payment-reference td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+#fees-list-table-bookings td:nth-child(1) {
+  max-width: 125px;
+}
+
+#fees-list-table-bookings td:nth-child(2) {
+  max-width: 225px;
+}
+
+#fees-list-table-bookings td:nth-child(3) {
+  max-width: 200px;
+}
+
+#fees-list-table-bookings td:nth-child(4) {
+  max-width: 120px;
+}
+
+#fees-list-table-bookings td:nth-child(5) {
+  text-align: left;
+  max-width: 120px;
+}
+
+#fees-list-table-bookings td:nth-child(6) {
+  text-align: right;
+  max-width: 120px;
+}
+
+@media only screen and (max-width: 1050px) {
+  #fees-list-table-bookings td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #fees-list-table-bookings td:nth-child(2) {
+    max-width: calc(225 * ((100vw * 800 / 1050) - 125px - 120px) / 565);
+  }
+
+  #fees-list-table-bookings td:nth-child(3) {
+    max-width: calc(200 * ((100vw * 800 / 1050) - 125px - 120px) / 565);
+  }
+
+  #fees-list-table-bookings td:nth-child(4) {
+    max-width: calc(120 * ((100vw * 800 / 1050) - 125px - 120px) / 565);
+  }
+
+  #fees-list-table-bookings th:nth-child(5),
+  #fees-list-table-bookings td:nth-child(5) {
+    display: none;
+  }
+
+  #fees-list-table-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  #fees-list-table-bookings td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #fees-list-table-bookings th:nth-child(2),
+  #fees-list-table-bookings td:nth-child(2) {
+    display: none;
+  }
+
+  #fees-list-table-bookings td:nth-child(3) {
+    max-width: calc(200 * ((100vw * 800 / 1050) - 125px - 120px) / 565);
+  }
+
+  #fees-list-table-bookings td:nth-child(4) {
+    max-width: calc(120 * ((100vw * 800 / 1050) - 125px - 120px) / 565);
+  }
+
+  #fees-list-table-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  #fees-list-table-bookings td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #fees-list-table-bookings th:nth-child(3),
+  #fees-list-table-bookings td:nth-child(3) {
+    display: none;
+  }
+
+  #fees-list-table-bookings td:nth-child(4) {
+    max-width: calc(120 * ((100vw * 800 / 1050) - 125px - 120px) / 565);
+  }
+
+  #fees-list-table-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #fees-list-table-bookings td:nth-child(1) {
+    max-width: 125px;
+  }
+
+  #fees-list-table-bookings th:nth-child(4),
+  #fees-list-table-bookings td:nth-child(4) {
+    display: none;
+  }
+
+  #fees-list-table-bookings td:nth-child(5) {
+    max-width: 120px;
+  }
+}

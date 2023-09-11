@@ -1,0 +1,91 @@
+#floating-banners-wrp {
+  display: flex;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 900;
+  width: 100%;
+  justify-content: center;
+}
+
+#floating-banners-list {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  -webkit-transform: translateY(calc(-100% - 10px));
+  -moz-transform: translateY(calc(-100% - 10px));
+  -ms-transform: translateY(calc(-100% - 10px));
+  -o-transform: translateY(calc(-100% - 10px));
+  transform: translateY(calc(-100% - 10px));
+}
+
+.floating-banner {
+  display: flex;
+  border-radius: 4px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.floating-banner-img-wrp {
+  display: table;
+  margin-right: 10px;
+}
+
+.floating-banner-img {
+  display: table;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+
+.floating-banner-txt-wrp {
+  display: table;
+  table-layout: fixed;
+  max-width: calc(100vw - 2 * 15px - 2 * 10px - 10px - 15px);
+  margin-right: 10px;
+}
+
+.floating-banner-txt-wrp-w-img {
+  max-width: calc(100vw - 2 * 15px - 2 * 10px - 10px - 15px - 10px - 22px);
+}
+
+.floating-banner-txt, .floating-banner-txt button {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 13.5px;
+  letter-spacing: 0.4px;
+  width: 100%;
+}
+
+.floating-banner-txt button {
+  background-color: transparent;
+  text-decoration: underline;
+  width: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+}
+
+.floating-banner-btn-wrp {
+  display: table;
+}
+
+.floating-banner-btn {
+  display: table;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../icons/cancel2.svg);
+  background-size: 75%;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,62 @@
+#b-d-features-codes-table td:nth-child(3) {
+  max-width: 200px;
+}
+
+#b-d-features-codes-table td:nth-child(4) {
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #b-d-features-codes-table td:nth-child(3) {
+    max-width: calc(200 * 100vw / 1400);
+  }
+
+  #b-d-features-codes-table td:nth-child(4) {
+    max-width: calc(300 * 100vw / 1400);
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #b-d-features-codes-table td:nth-child(3) {
+    max-width: calc(200 * 100vw / 1150);
+  }
+
+  #b-d-features-codes-table td:nth-child(4) {
+    max-width: calc(200 * 100vw / 1150);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #b-d-features-codes-table td:nth-child(2) {
+    max-width: calc(150 * 100vw / 900);
+  }
+
+  #b-d-features-codes-table td:nth-child(3) {
+    max-width: calc(200 * 100vw / 900);
+  }
+
+  #b-d-features-codes-table td:nth-child(4) {
+    max-width: calc(200 * 100vw / 900);
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  #b-d-features-codes-table th:nth-child(5),
+  #b-d-features-codes-table td:nth-child(5) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #b-d-features-codes-table th:nth-child(4),
+  #b-d-features-codes-table td:nth-child(4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #b-d-features-codes-table th:nth-child(1),
+  #b-d-features-codes-table td:nth-child(1) {
+    display: none;
+  }
+}
