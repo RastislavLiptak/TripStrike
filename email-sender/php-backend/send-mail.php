@@ -13,9 +13,9 @@
     $mail->Host = "smtp.gmail.com";
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
-    $mail->Username = "liptak.rastislav@gmail.com";
-    $mail->Password = "hvezdne valky";
-    $mail->SetFrom("liptak.rastislav@gmail.com");
+    $mail->Username = "email@email.com";
+    $mail->Password = "heslo";
+    $mail->SetFrom("email@email.com");
     $mail->Subject = $subject;
     $mail->Body = $body;
     $mail->AddAddress($to);
@@ -27,14 +27,14 @@
     }
   }
 
-  // function sendMail($to, $subject, $body, $mailType) {
-  //   $headers = "MIME-Version: 1.0" . "\r\n";
-  //   $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-  //   $headers .= "From: cott@okautoumyvarka.sk" . "\r\n";
-  //   if (mail($to, $subject, $body, $headers)) {
-  //     mailDone('done', $mailType);
-  //   } else {
-  //     mailDone('faild', $mailType);
-  //   }
-  // }
+  function sendMail($to, $subject, $body, $mailType) {
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers .= "From: cott@okautoumyvarka.sk" . "\r\n";
+    if (mail($to, $subject, $body, $headers)) {
+      mailDone('done', $mailType);
+    } else {
+      mailDone('faild', $mailType);
+    }
+  }
 ?>
